@@ -5,9 +5,9 @@ import rootReducer from '../reducers/root_reducer';
 import initialState from '../state/state';
 import logger from 'redux-logger';
 
-console.log(initialState)
+
 const persistConfig = {
-  key: 'root',
+  key: 'collectibles',
   storage
 };
 

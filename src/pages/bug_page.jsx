@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const BugPage = props => {
-  console.log(props);
-
   const bugs = props.bugs.map(bug => (
     <div key={bug.id}>
       <div>{bug.name}</div>

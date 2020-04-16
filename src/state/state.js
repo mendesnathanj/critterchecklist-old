@@ -8,7 +8,7 @@ import fossilComponents from './fossil_components';
 export default {
   collectibles: {
     bugs,
-    // fish,
+    fish,
     // fossils,
     // music,
     // fossilComponents
