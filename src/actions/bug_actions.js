@@ -1,10 +1,8 @@
-export const RECEIVE_BUG = 'RECEIVE_BUG';
+export const TOGGLE_FOUND = 'TOGGLE_FOUND';
 
+const toggleBugFound = id => ({
+  type: TOGGLE_FOUND,
+  id
+})
 
-const receiveBug = bug => ({
-  type: RECEIVE_BUG,
-  bug
-});
-
-
-export const updateBug = bug => ( receiveBug(bug) );
+export const toggleBug = id => (toggleBugFound(id));

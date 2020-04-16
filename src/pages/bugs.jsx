@@ -8,11 +8,7 @@ const BugPage = props => {
     <div key={bug.id}>
       <div>{bug.name}</div>
       <div>{bug.found === true ? 'found' : 'not found'}</div>
-      <button onClick={() => {
-        const newBug = Object.assign({}, bug);
-        newBug.found = true;
-        props.updateBug(newBug);
-      }}>Find me</button>
+      <button onClick={() => props.toggleBug(bug.id)}>Find me</button>
     </div>
   ));
 

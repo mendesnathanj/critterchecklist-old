@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import BugPage from './bugs';
-import { updateBug } from '../actions/bug_actions';
+import { toggleBug } from '../actions/bug_actions';
 
 
 const mapStateToProps = state => ({
@@ -9,7 +9,7 @@ const mapStateToProps = state => ({
 
 
 const mapDispatchToProps = dispatch => ({
-  updateBug: bug => dispatch(updateBug(bug))
+  toggleBug: id => dispatch(toggleBug(id))
 });
 
 

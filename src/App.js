@@ -4,7 +4,6 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
 import { store, persistor } from './store/store';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
-import Bugs from './pages/bugs';
 import BugsPage from './pages/bugs_container';
 import Fish from './pages/fish';
 import Fossils from './pages/fossils';

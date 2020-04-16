@@ -1,10 +1,13 @@
 import initialState from '../../state/bugs';
-import { RECEIVE_BUG } from '../../actions/bug_actions';
+import { TOGGLE_FOUND } from '../../actions/bug_actions';
 
 const bugs = (state = initialState, action) => {
   switch(action.type) {
-    case RECEIVE_BUG:
-      return Object.assign({}, initialState, { [action.bug.id]: action.bug });
+    case TOGGLE_FOUND:
+      const toggledBug = state[action.id];
+      toggledBug.found = !toggledBug.found;
+
+      return Object.assign({}, state, { [toggledBug.id]: toggledBug });
     default:
       return state;
   }
