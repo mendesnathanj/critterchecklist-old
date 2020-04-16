@@ -5,9 +5,9 @@ import { Provider } from 'react-redux';
 import { store, persistor } from './store/store';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import BugsPage from './pages/bugs_container';
-import Fish from './pages/fish';
-import Fossils from './pages/fossils';
-import Music from './pages/music';
+import Fish from './pages/fish_page';
+import Fossils from './pages/fossils_page';
+import Music from './pages/music_page';
 import Home from './pages/home';
 
 

@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import BugPage from './bugs';
+import BugPage from './bug_page';
 import { toggleBug } from '../actions/bug_actions';
 
 

@@ -1,7 +1,7 @@
 import initialState from '../../state/bugs';
 import { TOGGLE_FOUND } from '../../actions/bug_actions';
 
-const bugs = (state = initialState, action) => {
+export default (state = initialState, action) => {
   switch(action.type) {
     case TOGGLE_FOUND:
       const toggledBug = state[action.id];
@@ -12,6 +12,3 @@ const bugs = (state = initialState, action) => {
       return state;
   }
 };
-
-
-export default bugs;
