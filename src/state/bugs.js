@@ -36,7 +36,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "2": {
     "id": 2,
@@ -67,7 +68,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "3": {
     "id": 3,
@@ -100,7 +102,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "4": {
     "id": 4,
@@ -127,7 +130,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "5": {
     "id": 5,
@@ -156,7 +160,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "6": {
     "id": 6,
@@ -199,7 +204,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "7": {
     "id": 7,
@@ -226,11 +232,12 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "8": {
     "id": 8,
-    "name": "Monach Butterfly",
+    "name": "Monarch Butterfly",
     "location": "Flying",
     "value": 140,
     "times": [
@@ -251,7 +258,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "9": {
     "id": 9,
@@ -286,7 +294,8 @@ module.exports = {
         "Sep"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "10": {
     "id": 10,
@@ -316,7 +325,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "11": {
     "id": 11,
@@ -352,7 +362,8 @@ module.exports = {
         "Aug"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "12": {
     "id": 12,
@@ -381,7 +392,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "13": {
     "id": 13,
@@ -424,7 +436,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "14": {
     "id": 14,
@@ -455,7 +468,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "15": {
     "id": 15,
@@ -486,7 +500,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "16": {
     "id": 16,
@@ -520,7 +535,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "17": {
     "id": 17,
@@ -547,7 +563,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "18": {
     "id": 18,
@@ -574,7 +591,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "19": {
     "id": 19,
@@ -599,7 +617,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "20": {
     "id": 20,
@@ -624,7 +643,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "21": {
     "id": 21,
@@ -647,7 +667,8 @@ module.exports = {
         "Apr"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "22": {
     "id": 22,
@@ -684,7 +705,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "23": {
     "id": 23,
@@ -721,7 +743,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "24": {
     "id": 24,
@@ -750,7 +773,8 @@ module.exports = {
         "Jul"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "25": {
     "id": 25,
@@ -793,7 +817,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "26": {
     "id": 26,
@@ -816,7 +841,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "27": {
     "id": 27,
@@ -839,7 +865,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "28": {
     "id": 28,
@@ -862,7 +889,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "29": {
     "id": 29,
@@ -885,7 +913,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "30": {
     "id": 30,
@@ -912,7 +941,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "31": {
     "id": 31,
@@ -935,7 +965,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "32": {
     "id": 32,
@@ -958,7 +989,8 @@ module.exports = {
         "Apr"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "33": {
     "id": 33,
@@ -991,7 +1023,8 @@ module.exports = {
         "Apr"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "34": {
     "id": 34,
@@ -1022,7 +1055,8 @@ module.exports = {
         "Apr"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "35": {
     "id": 35,
@@ -1049,7 +1083,8 @@ module.exports = {
         "Aug"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "36": {
     "id": 36,
@@ -1070,7 +1105,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "37": {
     "id": 37,
@@ -1103,7 +1139,8 @@ module.exports = {
         "Nov"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "38": {
     "id": 38,
@@ -1132,7 +1169,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "39": {
     "id": 39,
@@ -1161,7 +1199,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "40": {
     "id": 40,
@@ -1192,7 +1231,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "41": {
     "id": 41,
@@ -1229,7 +1269,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "42": {
     "id": 42,
@@ -1266,7 +1307,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "43": {
     "id": 43,
@@ -1295,7 +1337,8 @@ module.exports = {
         "Apr"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "44": {
     "id": 44,
@@ -1334,7 +1377,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "45": {
     "id": 45,
@@ -1363,7 +1407,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "46": {
     "id": 46,
@@ -1391,7 +1436,8 @@ module.exports = {
         "Apr"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "47": {
     "id": 47,
@@ -1434,7 +1480,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "48": {
     "id": 48,
@@ -1463,7 +1510,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "49": {
     "id": 49,
@@ -1486,7 +1534,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "50": {
     "id": 50,
@@ -1511,7 +1560,8 @@ module.exports = {
         "Aug"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "51": {
     "id": 51,
@@ -1536,7 +1586,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "52": {
     "id": 52,
@@ -1559,7 +1610,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "53": {
     "id": 53,
@@ -1584,7 +1636,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "54": {
     "id": 54,
@@ -1611,7 +1664,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "55": {
     "id": 55,
@@ -1634,7 +1688,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "56": {
     "id": 56,
@@ -1657,7 +1712,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "57": {
     "id": 57,
@@ -1680,7 +1736,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "58": {
     "id": 58,
@@ -1707,7 +1764,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "59": {
     "id": 59,
@@ -1730,7 +1788,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "60": {
     "id": 60,
@@ -1753,7 +1812,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "61": {
     "id": 61,
@@ -1776,7 +1836,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "62": {
     "id": 62,
@@ -1799,7 +1860,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "63": {
     "id": 63,
@@ -1822,7 +1884,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "64": {
     "id": 64,
@@ -1845,11 +1908,12 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "65": {
     "id": 65,
-    "name": "Horned Herucles",
+    "name": "Horned Hercules",
     "location": "On trees",
     "value": 12,
     "times": [
@@ -1868,7 +1932,8 @@ module.exports = {
         "Feb"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "66": {
     "id": 66,
@@ -1901,7 +1966,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "67": {
     "id": 67,
@@ -1925,7 +1991,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "68": {
     "id": 68,
@@ -1968,7 +2035,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "69": {
     "id": 69,
@@ -2011,7 +2079,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "70": {
     "id": 70,
@@ -2054,7 +2123,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "71": {
     "id": 71,
@@ -2097,7 +2167,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "72": {
     "id": 72,
@@ -2140,7 +2211,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "73": {
     "id": 73,
@@ -2167,7 +2239,8 @@ module.exports = {
         "Mar"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "74": {
     "id": 74,
@@ -2202,7 +2275,8 @@ module.exports = {
         "May"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "75": {
     "id": 75,
@@ -2245,7 +2319,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "76": {
     "id": 76,
@@ -2284,7 +2359,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "77": {
     "id": 77,
@@ -2323,7 +2399,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "78": {
     "id": 78,
@@ -2366,7 +2443,8 @@ module.exports = {
         "Dec"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "79": {
     "id": 79,
@@ -2397,7 +2475,8 @@ module.exports = {
         "Oct"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   },
   "80": {
     "id": 80,
@@ -2428,6 +2507,7 @@ module.exports = {
         "Apr"
       ]
     },
-    "found": false
+    "found": false,
+    "type": "bug"
   }
 };

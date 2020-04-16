@@ -1,13 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Card from '../components/card/card';
 
 const BugPage = props => {
   const bugs = props.bugs.map(bug => (
-    <div key={bug.id}>
-      <div>{bug.name}</div>
-      <div>{bug.found === true ? 'found' : 'not found'}</div>
-      <button onClick={() => props.toggleBug(bug.id)}>Find me</button>
-    </div>
+    <Card key={bug.id} collectible={bug} toggleBug={props.toggleBug} />
   ));
 
   return (

@@ -4,21 +4,24 @@ module.exports = {
     name: "Acanthostega",
     components: [],
     price: 2000,
-    found: false
+    found: false,
+type: "fossil"
   },
   "2": {
     id: 2,
     name: "Amber",
     components: [],
     price: 1200,
-    found: false
+    found: false,
+type: "fossil"
   },
   "3": {
     id: 3,
     name: "Ammonite",
     components: [],
     price: 1100,
-    found: false
+    found: false,
+type: "fossil"
   },
   "4": {
     id: 4,
@@ -30,21 +33,24 @@ module.exports = {
     name: "Anomalocaris",
     components: [],
     price: 2000,
-    found: false
+    found: false,
+type: "fossil"
   },
   "6": {
     id: 6,
     name: "Archaeopteryx",
     components: [],
     price: 1300,
-    found: false
+    found: false,
+type: "fossil"
   },
   "7": {
     id: 7,
     name: "Australopithecus",
     components: [],
     price: 1100,
-    found: false
+    found: false,
+type: "fossil"
   },
   "8": {
     id: 8,
@@ -56,7 +62,8 @@ module.exports = {
     name: "Coprolite",
     components: [],
     price: 1100,
-    found: false
+    found: false,
+type: "fossil"
   },
   "10": {
     id: 10,
@@ -78,7 +85,8 @@ module.exports = {
     name: "Dinosaur Track",
     components: [],
     price: 1000,
-    found: false
+    found: false,
+type: "fossil"
   },
   "14": {
     id: 14,
@@ -90,14 +98,16 @@ module.exports = {
     name: "Dunkleosteus",
     components: [],
     price: 3500,
-    found: false
+    found: false,
+type: "fossil"
   },
   "16": {
     id: 16,
     name: "Eusthenopteron",
     components: [],
     price: 2000,
-    found: false
+    found: false,
+type: "fossil"
   },
   "17": {
     id: 17,
@@ -114,7 +124,8 @@ module.exports = {
     name: "Juramaia",
     components: [],
     price: 1500,
-    found: false
+    found: false,
+type: "fossil"
   },
   "20": {
     id: 20,
@@ -136,7 +147,8 @@ module.exports = {
     name: "Myllokunmingia",
     components: [],
     price: 1500,
-    found: false
+    found: false,
+type: "fossil"
   },
   "24": {
     id: 24,
@@ -173,7 +185,8 @@ module.exports = {
     name: "Shark Tooth",
     components: [],
     price: 1000,
-    found: false
+    found: false,
+type: "fossil"
   },
   "31": {
     id: 31,
@@ -195,7 +208,8 @@ module.exports = {
     name: "Trilobite",
     components: [],
     price: 1300,
-    found: false
+    found: false,
+type: "fossil"
   },
   "35": {
     id: 35,

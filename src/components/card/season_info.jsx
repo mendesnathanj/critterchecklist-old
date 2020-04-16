@@ -1,0 +1,25 @@
+import React from 'react';
+import Pill from './pill';
+
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+
+const SeasonInfo = ({ seasons }) => {
+  const activeSeasons = new Set(seasons);
+
+  const pills = MONTHS.map(month => {
+    const active = activeSeasons.has(month);
+    return <Pill key={month} month={month} active={active} />;
+  });
+
+  return (
+    <div>
+      <h3>Seasons:</h3>
+      <div className="pills-container">
+        { pills }
+      </div>
+    </div>
+  )
+}
+
+export default SeasonInfo;
