@@ -1,32 +1,58 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
 import { store, persistor } from './store/store';
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import Bugs from './pages/bugs';
+import BugsPage from './pages/bugs_container';
+import Fish from './pages/fish';
+import Fossils from './pages/fossils';
+import Music from './pages/music';
+import Home from './pages/home';
 
-console.log(store);
 
 function App() {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
-          </header>
-        </div>
+        <Router>
+          <div>
+            <nav>
+              <ul>
+                <li>
+                  <Link to='/bugs'>Bugs</Link>
+                </li>
+                <li>
+                  <Link to='/fish'>Fish</Link>
+                </li>
+                <li>
+                  <Link to='/fossils'>Fossils</Link>
+                </li>
+                <li>
+                  <Link to='/music'>Music</Link>
+                </li>
+              </ul>
+            </nav>
+            <Switch>
+              <Route path='/bugs'>
+                <BugsPage />
+              </Route>
+              <Route path='/fish'>
+                <Fish />
+              </Route>
+              <Route path='/fossils'>
+                <Fossils />
+              </Route>
+              <Route path='/music'>
+                <Music />
+              </Route>
+              <Route path='/'>
+                <Home />
+              </Route>
+            </Switch>
+          </div>
+        </Router>
       </PersistGate>
     </Provider>
   );
