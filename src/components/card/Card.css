@@ -31,6 +31,11 @@
   letter-spacing: 0.5px;
 }
 
+.fossil-component > .card-title {
+  font-size: 1.1rem;
+  border-bottom: none;
+}
+
 .bug-picture {
   width: 75%;
 }
@@ -114,6 +119,22 @@
   font-size: 1.1rem;
 }
 
+.card-footer, .fossil-component:last-child {
+  border: none;
+  align-items: center;
+}
+
+.fossil-component {
+  border-bottom: 2px solid #E1DEE3;
+}
+
+.fossil-component > .card-footer {
+  padding-top: 0rem;
+  margin-top: -0.25rem;
+  padding-bottom: 0.5rem;
+
+}
+
 .season-header, .time-header, .location-header, .value, .shadow-header {
   letter-spacing: 0.5px;
 }
@@ -133,11 +154,6 @@
 
 .time:first-child {
   padding-bottom: 0.2rem;
-}
-
-.card-footer {
-  border: none;
-  align-items: center;
 }
 
 .location-text {

@@ -2,6 +2,7 @@ import React from 'react';
 import BugCard from './bug_card';
 import FishCard from './fish_card';
 import MusicCard from './music_card';
+import FossilCard from './fossil_card';
 
 
 const Card = (props) => {
@@ -12,6 +13,8 @@ const Card = (props) => {
     card = <FishCard {...props} />;
   else if (props.collectible.type === 'music')
     card = <MusicCard {...props} />
+  else
+    card = <FossilCard {...props} />
 
   return (
     <div className="card-wrapper">

@@ -7,7 +7,7 @@ import { BrowserRouter as Router, NavLink as Link, Route, Switch } from 'react-r
 import BugsPage from './pages/bugs_container';
 import FishPage from './pages/fish_container';
 import MusicPage from './pages/music_container';
-import Fossils from './pages/fossils_page';
+import FossilPage from './pages/fossils_container';
 import Home from './pages/home';
 
 
@@ -41,7 +41,7 @@ function App() {
                 <FishPage />
               </Route>
               <Route path='/fossils'>
-                <Fossils />
+                <FossilPage />
               </Route>
               <Route path='/music'>
                 <MusicPage />

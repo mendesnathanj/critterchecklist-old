@@ -9,8 +9,8 @@ export default {
   collectibles: {
     bugs,
     fish,
-    // fossils,
+    fossils,
     music,
-    // fossilComponents
+    fossilComponents
   }
 };

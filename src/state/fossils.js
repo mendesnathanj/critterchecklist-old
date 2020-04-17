@@ -2,26 +2,20 @@ module.exports = {
   "1": {
     id: 1,
     name: "Acanthostega",
-    components: [],
-    price: 2000,
-    found: false,
-type: "fossil"
+    components: [62],
+    type: "fossil"
   },
   "2": {
     id: 2,
     name: "Amber",
-    components: [],
-    price: 1200,
-    found: false,
-type: "fossil"
+    components: [63],
+    type: "fossil"
   },
   "3": {
     id: 3,
     name: "Ammonite",
-    components: [],
-    price: 1100,
-    found: false,
-type: "fossil"
+    components: [64],
+    type: "fossil"
   },
   "4": {
     id: 4,
@@ -31,26 +25,20 @@ type: "fossil"
   "5": {
     id: 5,
     name: "Anomalocaris",
-    components: [],
-    price: 2000,
-    found: false,
-type: "fossil"
+    components: [65],
+    type: "fossil"
   },
   "6": {
     id: 6,
     name: "Archaeopteryx",
-    components: [],
-    price: 1300,
-    found: false,
-type: "fossil"
+    components: [66],
+    type: "fossil"
   },
   "7": {
     id: 7,
     name: "Australopithecus",
-    components: [],
-    price: 1100,
-    found: false,
-type: "fossil"
+    components: [67],
+    type: "fossil"
   },
   "8": {
     id: 8,
@@ -60,10 +48,8 @@ type: "fossil"
   "9": {
     id: 9,
     name: "Coprolite",
-    components: [],
-    price: 1100,
-    found: false,
-type: "fossil"
+    components: [68],
+    type: "fossil"
   },
   "10": {
     id: 10,
@@ -83,10 +69,8 @@ type: "fossil"
   "13": {
     id: 13,
     name: "Dinosaur Track",
-    components: [],
-    price: 1000,
-    found: false,
-type: "fossil"
+    components: [69],
+    type: "fossil"
   },
   "14": {
     id: 14,
@@ -96,18 +80,14 @@ type: "fossil"
   "15": {
     id: 15,
     name: "Dunkleosteus",
-    components: [],
-    price: 3500,
-    found: false,
-type: "fossil"
+    components: [70],
+    type: "fossil"
   },
   "16": {
     id: 16,
     name: "Eusthenopteron",
-    components: [],
-    price: 2000,
-    found: false,
-type: "fossil"
+    components: [71],
+    type: "fossil"
   },
   "17": {
     id: 17,
@@ -122,10 +102,8 @@ type: "fossil"
   "19": {
     id: 19,
     name: "Juramaia",
-    components: [],
-    price: 1500,
-    found: false,
-type: "fossil"
+    components: [71],
+    type: "fossil"
   },
   "20": {
     id: 20,
@@ -145,10 +123,8 @@ type: "fossil"
   "23": {
     id: 23,
     name: "Myllokunmingia",
-    components: [],
-    price: 1500,
-    found: false,
-type: "fossil"
+    components: [72],
+    type: "fossil"
   },
   "24": {
     id: 24,
@@ -183,10 +159,8 @@ type: "fossil"
   "30": {
     id: 30,
     name: "Shark Tooth",
-    components: [],
-    price: 1000,
-    found: false,
-type: "fossil"
+    components: [73],
+    type: "fossil"
   },
   "31": {
     id: 31,
@@ -206,10 +180,8 @@ type: "fossil"
   "34": {
     id: 34,
     name: "Trilobite",
-    components: [],
-    price: 1300,
-    found: false,
-type: "fossil"
+    components: [74],
+    type: "fossil"
   },
   "35": {
     id: 35,
