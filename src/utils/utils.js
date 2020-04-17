@@ -11,5 +11,5 @@ export const parsedTime = times => {
       if (value > 12) return `${value % 12} PM`;
       else return `${value} AM`;
     }).join(' - ');
-  }).join(', ');
+  });
 };

@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CollectiblesLayout from '../components/collectibles_layout';
+import Card from '../components/card/card';
 
 const FishPage = props => {
   const fish = props.fish.map(fish => (
-    <div key={fish.id}>
-      <div>{fish.name}</div>
-      <div>{fish.found === true ? 'found' : 'not found'}</div>
-      <button onClick={() => props.toggleFish(fish.id)}>Find me</button>
-    </div>
+    <Card collectible={fish} toggle={props.toggleFish} />
   ));
 
   return (
     <div>
-      <div>hewwo i am the fish page</div>
       <Link to='/'>Home</Link>
-      { fish }
+      <div>hewwo i am the fish page</div>
+      <CollectiblesLayout>
+        { fish }
+      </CollectiblesLayout>
     </div>
   )
 };

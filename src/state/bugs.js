@@ -109,7 +109,7 @@ module.exports = {
     "id": 4,
     "name": "Peacock Butterfly",
     "location": "Flying by hybrid flowers",
-    "value": 2,
+    "value": 2500,
     "times": [
       {
         "start": 4,
@@ -167,7 +167,7 @@ module.exports = {
     "id": 6,
     "name": "Paper Kite Butterfly",
     "location": "Flying",
-    "value": 1,
+    "value": 1000,
     "times": [
       {
         "start": 8,
@@ -211,7 +211,7 @@ module.exports = {
     "id": 7,
     "name": "Great Purple Emperor",
     "location": "Flying",
-    "value": 3,
+    "value": 3000,
     "times": [
       {
         "start": 4,
@@ -265,7 +265,7 @@ module.exports = {
     "id": 9,
     "name": "Emperor Butterfly",
     "location": "Flying",
-    "value": 4,
+    "value": 4000,
     "times": [
       {
         "start": 17,
@@ -301,7 +301,7 @@ module.exports = {
     "id": 10,
     "name": "Agrias Butterfly",
     "location": "Flying",
-    "value": 3,
+    "value": 3000,
     "times": [
       {
         "start": 8,
@@ -332,7 +332,7 @@ module.exports = {
     "id": 11,
     "name": "Rajah Brooke's Birdwing",
     "location": "Flying by purple flowers",
-    "value": 2,
+    "value": 2500,
     "times": [
       {
         "start": 8,
@@ -369,7 +369,7 @@ module.exports = {
     "id": 12,
     "name": "Queen Alexandra's Birdwing",
     "location": "Flying",
-    "value": 4,
+    "value": 4000,
     "times": [
       {
         "start": 8,
@@ -443,7 +443,7 @@ module.exports = {
     "id": 14,
     "name": "Atlas Moth",
     "location": "On trees",
-    "value": 3,
+    "value": 3000,
     "times": [
       {
         "start": 19,
@@ -475,7 +475,7 @@ module.exports = {
     "id": 15,
     "name": "Madagascan Sunset Moth",
     "location": "Flying",
-    "value": 2,
+    "value": 2500,
     "times": [
       {
         "start": 8,
@@ -712,7 +712,7 @@ module.exports = {
     "id": 23,
     "name": "Orchid Mantis",
     "location": "On white flowers",
-    "value": 2,
+    "value": 2400,
     "times": [
       {
         "start": 8,
@@ -780,7 +780,7 @@ module.exports = {
     "id": 25,
     "name": "Wasp",
     "location": "Falls from shaking trees",
-    "value": 2,
+    "value": 2500,
     "times": [
       {
         "start": 0,
@@ -1030,7 +1030,7 @@ module.exports = {
     "id": 34,
     "name": "Banded Dragonfly",
     "location": "Flying",
-    "value": 4,
+    "value": 4500,
     "times": [
       {
         "start": 8,
@@ -1206,7 +1206,7 @@ module.exports = {
     "id": 40,
     "name": "Giant Water Bug",
     "location": "Ponds and rivers",
-    "value": 2,
+    "value": 2000,
     "times": [
       {
         "start": 19,
@@ -1276,7 +1276,7 @@ module.exports = {
     "id": 42,
     "name": "Man-faced Stink Bug",
     "location": "On flowers",
-    "value": 1,
+    "value": 1000,
     "times": [
       {
         "start": 19,
@@ -1344,7 +1344,7 @@ module.exports = {
     "id": 44,
     "name": "Tiger Beetle",
     "location": "On ground",
-    "value": 1,
+    "value": 1500,
     "times": [
       {
         "start": 0,
@@ -1384,7 +1384,7 @@ module.exports = {
     "id": 45,
     "name": "Jewel Beetle",
     "location": "On tree stumps",
-    "value": 2,
+    "value": 2400,
     "times": [
       {
         "start": 0,
@@ -1487,7 +1487,7 @@ module.exports = {
     "id": 48,
     "name": "Rosalia Batesi Beetle",
     "location": "On tree stumps",
-    "value": 3,
+    "value": 3000,
     "times": [
       {
         "start": 0,
@@ -1541,7 +1541,7 @@ module.exports = {
     "id": 50,
     "name": "Dung Beetle",
     "location": "Pushing snowballs",
-    "value": 3,
+    "value": 3000,
     "times": [
       {
         "start": 0,
@@ -1593,7 +1593,7 @@ module.exports = {
     "id": 52,
     "name": "Scarab Beetle",
     "location": "On trees",
-    "value": 10,
+    "value": 10000,
     "times": [
       {
         "start": 13,
@@ -1643,7 +1643,7 @@ module.exports = {
     "id": 54,
     "name": "Goliath Beetle",
     "location": "On coconut trees",
-    "value": 8,
+    "value": 8000,
     "times": [
       {
         "start": 17,
@@ -1671,7 +1671,7 @@ module.exports = {
     "id": 55,
     "name": "Saw Stag",
     "location": "On trees",
-    "value": 2,
+    "value": 2000,
     "times": [
       {
         "start": 0,
@@ -1695,7 +1695,7 @@ module.exports = {
     "id": 56,
     "name": "Miyama Stag",
     "location": "On trees",
-    "value": 1,
+    "value": 1000,
     "times": [
       {
         "start": 0,
@@ -1719,7 +1719,7 @@ module.exports = {
     "id": 57,
     "name": "Giant Stag",
     "location": "On trees",
-    "value": 10,
+    "value": 10000,
     "times": [
       {
         "start": 13,
@@ -1743,7 +1743,7 @@ module.exports = {
     "id": 58,
     "name": "Rainbow Stag",
     "location": "On trees",
-    "value": 6,
+    "value": 6000,
     "times": [
       {
         "start": 19,
@@ -1771,7 +1771,7 @@ module.exports = {
     "id": 59,
     "name": "Cyclommatus Stag",
     "location": "On trees",
-    "value": 8,
+    "value": 8000,
     "times": [
       {
         "start": 17,
@@ -1795,7 +1795,7 @@ module.exports = {
     "id": 60,
     "name": "Golden Stag",
     "location": "On trees",
-    "value": 12,
+    "value": 12000,
     "times": [
       {
         "start": 17,
@@ -1819,7 +1819,7 @@ module.exports = {
     "id": 61,
     "name": "Giraffe Stag",
     "location": "On trees",
-    "value": 12,
+    "value": 12000,
     "times": [
       {
         "start": 17,
@@ -1843,7 +1843,7 @@ module.exports = {
     "id": 62,
     "name": "Horned Dynastid",
     "location": "On trees",
-    "value": 1,
+    "value": 1350,
     "times": [
       {
         "start": 17,
@@ -1867,7 +1867,7 @@ module.exports = {
     "id": 63,
     "name": "Horned Atlas",
     "location": "On trees",
-    "value": 8,
+    "value": 8000,
     "times": [
       {
         "start": 17,
@@ -1891,7 +1891,7 @@ module.exports = {
     "id": 64,
     "name": "Horned Elephant",
     "location": "On trees",
-    "value": 8,
+    "value": 8000,
     "times": [
       {
         "start": 17,
@@ -1915,7 +1915,7 @@ module.exports = {
     "id": 65,
     "name": "Horned Hercules",
     "location": "On trees",
-    "value": 12,
+    "value": 12000,
     "times": [
       {
         "start": 17,
@@ -2086,7 +2086,7 @@ module.exports = {
     "id": 70,
     "name": "Hermit Crab",
     "location": "Beach",
-    "value": 1,
+    "value": 1000,
     "times": [
       {
         "start": 19,
@@ -2450,7 +2450,7 @@ module.exports = {
     "id": 79,
     "name": "Tarantula",
     "location": "On ground",
-    "value": 8,
+    "value": 8000,
     "times": [
       {
         "start": 19,
@@ -2482,7 +2482,7 @@ module.exports = {
     "id": 80,
     "name": "Scorpion",
     "location": "On ground",
-    "value": 8,
+    "value": 8000,
     "times": [
       {
         "start": 19,
@@ -2510,4 +2510,4 @@ module.exports = {
     "found": false,
     "type": "bug"
   }
-};
+}

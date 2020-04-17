@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckSquare } from '@fortawesome/free-solid-svg-icons';
 import { faSquare } from '@fortawesome/free-regular-svg-icons';
 
-const Checkbox = ({ id, found, toggleBug }) => {
+const Checkbox = ({ id, found, toggle }) => {
   const icon = found ? faCheckSquare : faSquare;
 
-  return <FontAwesomeIcon icon={icon} onClick={() => toggleBug(id)} />;
+  return <FontAwesomeIcon className="card-checkbox checkbox" icon={icon} onClick={() => toggle(id)} />;
 }
 
 

@@ -28,7 +28,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "2": {
     "id": 2,
@@ -73,7 +73,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "3": {
     "id": 3,
@@ -118,7 +118,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "4": {
     "id": 4,
@@ -163,7 +163,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "5": {
     "id": 5,
@@ -208,14 +208,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "6": {
     "id": 6,
     "name": "Koi",
     "location": "Pond",
     "shadowSize": "Large",
-    "value": 4,
+    "value": 4000,
     "times": [
       {
         "start": 16,
@@ -253,14 +253,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "7": {
     "id": 7,
     "name": "Goldfish",
     "location": "Pond",
     "shadowSize": "Smallest",
-    "value": 1,
+    "value": 1300,
     "times": [
       {
         "start": 0,
@@ -298,14 +298,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "8": {
     "id": 8,
     "name": "Pop-eyed Goldfish",
     "location": "Pond",
     "shadowSize": "Smallest",
-    "value": 1,
+    "value": 1300,
     "times": [
       {
         "start": 9,
@@ -343,14 +343,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "9": {
     "id": 9,
     "name": "Ranchu Goldfish",
     "location": "Pond",
     "shadowSize": "Small",
-    "value": 4,
+    "value": 4500,
     "times": [
       {
         "start": 9,
@@ -388,7 +388,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "10": {
     "id": 10,
@@ -419,7 +419,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "11": {
     "id": 11,
@@ -452,14 +452,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "12": {
     "id": 12,
     "name": "Soft-shelled Turtle",
     "location": "River",
     "shadowSize": "Large",
-    "value": 3,
+    "value": 3750,
     "times": [
       {
         "start": 16,
@@ -477,14 +477,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "13": {
     "id": 13,
     "name": "Snapping Turtle",
     "location": "River",
     "shadowSize": "X Large",
-    "value": 5,
+    "value": 5000,
     "times": [
       {
         "start": 21,
@@ -512,7 +512,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "14": {
     "id": 14,
@@ -543,7 +543,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "15": {
     "id": 15,
@@ -572,7 +572,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "16": {
     "id": 16,
@@ -617,7 +617,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "17": {
     "id": 17,
@@ -644,7 +644,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "18": {
     "id": 18,
@@ -677,14 +677,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "19": {
     "id": 19,
     "name": "Giant Snakehead",
     "location": "Pond",
     "shadowSize": "X Large",
-    "value": 5,
+    "value": 5500,
     "times": [
       {
         "start": 9,
@@ -704,7 +704,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "20": {
     "id": 20,
@@ -749,7 +749,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "21": {
     "id": 21,
@@ -782,7 +782,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "22": {
     "id": 22,
@@ -827,7 +827,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "23": {
     "id": 23,
@@ -858,14 +858,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "24": {
     "id": 24,
     "name": "Pike",
     "location": "River",
     "shadowSize": "X Large",
-    "value": 1,
+    "value": 1800,
     "times": [
       {
         "start": 0,
@@ -887,7 +887,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "25": {
     "id": 25,
@@ -914,7 +914,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "26": {
     "id": 26,
@@ -941,14 +941,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "27": {
     "id": 27,
     "name": "Cherry Salmon",
     "location": "River (Clifftop)",
     "shadowSize": "Medium",
-    "value": 1,
+    "value": 1000,
     "times": [
       {
         "start": 16,
@@ -976,14 +976,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "28": {
     "id": 28,
     "name": "Char",
     "location": "River (Clifftop)",
     "shadowSize": "Medium",
-    "value": 3,
+    "value": 3800,
     "times": [
       {
         "start": 16,
@@ -1011,14 +1011,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "29": {
     "id": 29,
     "name": "Golden Trout",
     "location": "River (Clifftop)",
     "shadowSize": "Medium",
-    "value": 15,
+    "value": 15000,
     "times": [
       {
         "start": 16,
@@ -1046,14 +1046,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "30": {
     "id": 30,
     "name": "Stringfish",
     "location": "River (Clifftop)",
     "shadowSize": "Largest",
-    "value": 15,
+    "value": 15000,
     "times": [
       {
         "start": 16,
@@ -1075,7 +1075,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "31": {
     "id": 31,
@@ -1098,14 +1098,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "32": {
     "id": 32,
     "name": "King Salmon",
     "location": "River (mouth)",
     "shadowSize": "Largest",
-    "value": 1,
+    "value": 1800,
     "times": [
       {
         "start": 0,
@@ -1121,14 +1121,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "33": {
     "id": 33,
     "name": "Mitten Crab",
     "location": "River",
     "shadowSize": "Small",
-    "value": 2,
+    "value": 2000,
     "times": [
       {
         "start": 16,
@@ -1148,14 +1148,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "34": {
     "id": 34,
     "name": "Guppy",
     "location": "River",
     "shadowSize": "Smallest",
-    "value": 1,
+    "value": 1300,
     "times": [
       {
         "start": 9,
@@ -1185,14 +1185,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "35": {
     "id": 35,
     "name": "Nibble Fish",
     "location": "River",
     "shadowSize": "Small",
-    "value": 1,
+    "value": 1500,
     "times": [
       {
         "start": 9,
@@ -1216,14 +1216,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "36": {
     "id": 36,
     "name": "Angelfish",
     "location": "River",
     "shadowSize": "Small",
-    "value": 3,
+    "value": 3000,
     "times": [
       {
         "start": 16,
@@ -1249,14 +1249,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "37": {
     "id": 37,
     "name": "Betta",
     "location": "River",
     "shadowSize": "Small",
-    "value": 2,
+    "value": 2500,
     "times": [
       {
         "start": 9,
@@ -1282,7 +1282,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "38": {
     "id": 38,
@@ -1319,7 +1319,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "39": {
     "id": 39,
@@ -1352,14 +1352,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "40": {
     "id": 40,
     "name": "Piranha",
     "location": "River",
     "shadowSize": "Small",
-    "value": 2,
+    "value": 2500,
     "times": [
       {
         "start": 9,
@@ -1385,14 +1385,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "41": {
     "id": 41,
     "name": "Arowana",
     "location": "River",
     "shadowSize": "Large",
-    "value": 10,
+    "value": 10000,
     "times": [
       {
         "start": 16,
@@ -1414,14 +1414,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "42": {
     "id": 42,
     "name": "Dorado",
     "location": "River",
     "shadowSize": "X Large",
-    "value": 15,
+    "value": 15000,
     "times": [
       {
         "start": 4,
@@ -1443,14 +1443,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "43": {
     "id": 43,
     "name": "Gar",
     "location": "Pond",
     "shadowSize": "Largest",
-    "value": 6,
+    "value": 6000,
     "times": [
       {
         "start": 16,
@@ -1472,14 +1472,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "44": {
     "id": 44,
     "name": "Arapaima",
     "location": "River",
     "shadowSize": "Largest",
-    "value": 10,
+    "value": 10000,
     "times": [
       {
         "start": 16,
@@ -1501,14 +1501,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "45": {
     "id": 45,
     "name": "Saddled Bichir",
     "location": "River",
     "shadowSize": "Large",
-    "value": 4,
+    "value": 4000,
     "times": [
       {
         "start": 21,
@@ -1530,14 +1530,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "46": {
     "id": 46,
     "name": "Sturgeon",
     "location": "River (mouth)",
     "shadowSize": "Largest",
-    "value": 10,
+    "value": 10000,
     "times": [
       {
         "start": 0,
@@ -1565,14 +1565,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "47": {
     "id": 47,
     "name": "Sea Butterfly",
     "location": "Sea",
     "shadowSize": "Smallest",
-    "value": 1,
+    "value": 1000,
     "times": [
       {
         "start": 0,
@@ -1594,14 +1594,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "48": {
     "id": 48,
     "name": "Sea Horse",
     "location": "Sea",
     "shadowSize": "Smallest",
-    "value": 1,
+    "value": 1100,
     "times": [
       {
         "start": 0,
@@ -1631,7 +1631,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "49": {
     "id": 49,
@@ -1664,14 +1664,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "50": {
     "id": 50,
     "name": "Surgeonfish",
     "location": "Sea",
     "shadowSize": "Small",
-    "value": 1,
+    "value": 1000,
     "times": [
       {
         "start": 0,
@@ -1697,14 +1697,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "51": {
     "id": 51,
     "name": "Butterfly Fish",
     "location": "Sea",
     "shadowSize": "Small",
-    "value": 1,
+    "value": 1000,
     "times": [
       {
         "start": 0,
@@ -1730,14 +1730,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "52": {
     "id": 52,
     "name": "Napoleonfish",
     "location": "Sea",
     "shadowSize": "Largest",
-    "value": 10,
+    "value": 10000,
     "times": [
       {
         "start": 4,
@@ -1755,7 +1755,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "53": {
     "id": 53,
@@ -1792,14 +1792,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "54": {
     "id": 54,
     "name": "Blowfish",
     "location": "Sea",
     "shadowSize": "Medium",
-    "value": 5,
+    "value": 5000,
     "times": [
       {
         "start": 18,
@@ -1821,7 +1821,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "55": {
     "id": 55,
@@ -1848,7 +1848,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "56": {
     "id": 56,
@@ -1893,7 +1893,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "57": {
     "id": 57,
@@ -1938,14 +1938,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "58": {
     "id": 58,
     "name": "Barred Knifejaw",
     "location": "Sea",
     "shadowSize": "Medium",
-    "value": 5,
+    "value": 5000,
     "times": [
       {
         "start": 0,
@@ -1977,7 +1977,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "59": {
     "id": 59,
@@ -2022,14 +2022,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "60": {
     "id": 60,
     "name": "Red Snapper",
     "location": "Sea",
     "shadowSize": "Large",
-    "value": 3,
+    "value": 3000,
     "times": [
       {
         "start": 0,
@@ -2067,7 +2067,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "61": {
     "id": 61,
@@ -2102,7 +2102,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "62": {
     "id": 62,
@@ -2147,7 +2147,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "63": {
     "id": 63,
@@ -2186,14 +2186,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "64": {
     "id": 64,
     "name": "Moray Eel",
     "location": "Sea",
     "shadowSize": "Narrow",
-    "value": 2,
+    "value": 2000,
     "times": [
       {
         "start": 0,
@@ -2213,7 +2213,7 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "65": {
     "id": 65,
@@ -2244,14 +2244,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "66": {
     "id": 66,
     "name": "Tuna",
     "location": "Pier",
     "shadowSize": "Largest",
-    "value": 7,
+    "value": 7000,
     "times": [
       {
         "start": 0,
@@ -2277,14 +2277,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "67": {
     "id": 67,
     "name": "Blue Marlin",
     "location": "Pier",
     "shadowSize": "Largest",
-    "value": 10,
+    "value": 10000,
     "times": [
       {
         "start": 0,
@@ -2317,14 +2317,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "68": {
     "id": 68,
     "name": "Giant Trevally",
     "location": "Pier",
     "shadowSize": "Large",
-    "value": 4,
+    "value": 4500,
     "times": [
       {
         "start": 0,
@@ -2350,14 +2350,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "69": {
     "id": 69,
     "name": "Mahi-mahi",
     "location": "Sea",
     "shadowSize": "Large",
-    "value": 6,
+    "value": 6000,
     "times": [
       {
         "start": 0,
@@ -2383,14 +2383,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "70": {
     "id": 70,
     "name": "Ocean Sunfish",
     "location": "Sea",
     "shadowSize": "Largest (Fin)",
-    "value": 4,
+    "value": 4000,
     "times": [
       {
         "start": 4,
@@ -2410,14 +2410,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "71": {
     "id": 71,
     "name": "Ray",
     "location": "Sea",
     "shadowSize": "X Large",
-    "value": 3,
+    "value": 3000,
     "times": [
       {
         "start": 4,
@@ -2439,14 +2439,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "72": {
     "id": 72,
     "name": "Saw Shark",
     "location": "Sea",
     "shadowSize": "Largest (Fin)",
-    "value": 12,
+    "value": 12000,
     "times": [
       {
         "start": 16,
@@ -2468,14 +2468,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "73": {
     "id": 73,
     "name": "Hammerhead Shark",
     "location": "Sea",
     "shadowSize": "Largest (Fin)",
-    "value": 8,
+    "value": 8000,
     "times": [
       {
         "start": 16,
@@ -2497,14 +2497,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "74": {
     "id": 74,
     "name": "Great White Shark",
     "location": "Sea",
     "shadowSize": "Largest (Fin)",
-    "value": 15,
+    "value": 15000,
     "times": [
       {
         "start": 16,
@@ -2526,14 +2526,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "75": {
     "id": 75,
     "name": "Whale Shark",
     "location": "Sea",
     "shadowSize": "Largest (Fin)",
-    "value": 13,
+    "value": 13000,
     "times": [
       {
         "start": 0,
@@ -2555,14 +2555,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "76": {
     "id": 76,
     "name": "Suckerfish",
     "location": "Sea",
     "shadowSize": "Large (Fin)",
-    "value": 1,
+    "value": 1500,
     "times": [
       {
         "start": 0,
@@ -2584,14 +2584,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "77": {
     "id": 77,
     "name": "Football Fish",
     "location": "Sea",
     "shadowSize": "Large",
-    "value": 2,
+    "value": 2500,
     "times": [
       {
         "start": 16,
@@ -2615,14 +2615,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "78": {
     "id": 78,
     "name": "Oarfish",
     "location": "Sea",
     "shadowSize": "Largest",
-    "value": 9,
+    "value": 9000,
     "times": [
       {
         "start": 0,
@@ -2648,14 +2648,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "79": {
     "id": 79,
     "name": "Barreleye",
     "location": "Sea",
     "shadowSize": "Small",
-    "value": 15,
+    "value": 15000,
     "times": [
       {
         "start": 21,
@@ -2693,14 +2693,14 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   },
   "80": {
     "id": 80,
     "name": "Coelacanth",
     "location": "Sea (rainy days)",
     "shadowSize": "Largest",
-    "value": 15,
+    "value": 15000,
     "times": [
       {
         "start": 0,
@@ -2738,6 +2738,6 @@ module.exports = {
       ]
     },
     "found": false,
-  "type": "fish"
+    "type": "fish"
   }
-};
+}

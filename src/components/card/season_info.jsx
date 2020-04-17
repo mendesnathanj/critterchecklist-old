@@ -13,8 +13,8 @@ const SeasonInfo = ({ seasons }) => {
   });
 
   return (
-    <div>
-      <h3>Seasons:</h3>
+    <div className="season-info-container">
+      <h3 className="season-header">Season:</h3>
       <div className="pills-container">
         { pills }
       </div>
