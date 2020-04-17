@@ -29,12 +29,21 @@
   border-bottom: 2px solid #E1DEE3;
 }
 
+.bug-picture {
+  width: 75%;
+}
+
+.fish-picture {
+  width: 92%;
+}
+
 .card-picture {
   display: block;
-  width: 75%;
   height: auto;
   margin: 0 auto;
 }
+
+
 
 .season-info-container {
   border-top: 2px solid #E1DEE3;

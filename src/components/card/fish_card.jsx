@@ -1,5 +1,12 @@
 import React from 'react';
-
+import Title from './title';
+import Picture from './picture';
+import SeasonInfo from './season_info';
+import TimeInfo from './time_info';
+import LocationInfo from './location_info';
+import CardFooter from './card_footer';
+import { fileName } from '../../utils/utils';
+import './Card.css';
 
 const FishCard = ({ collectible, toggle }) => {
   const { name, months, times, location, value, id, found, type, shadowSize } = collectible;

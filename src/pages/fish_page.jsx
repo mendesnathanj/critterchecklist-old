@@ -4,9 +4,13 @@ import CollectiblesLayout from '../components/collectibles_layout';
 import Card from '../components/card/card';
 
 const FishPage = props => {
-  const fish = props.fish.map(fish => (
-    <Card collectible={fish} toggle={props.toggleFish} />
-  ));
+  const fish = props.fish
+    .sort((a, b) => ('' + a.name).localeCompare(b.name))
+    .map(fish => (
+      <Card key={fish.id} collectible={fish} toggle={props.toggleFish} />
+    ));
+
+  console.log(fish.length);
 
   return (
     <div>

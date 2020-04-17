@@ -4,9 +4,11 @@ import CollectiblesLayout from '../components/collectibles_layout';
 import Card from '../components/card/card';
 
 const BugPage = props => {
-  const bugs = props.bugs.map(bug => (
-    <Card key={bug.id} collectible={bug} toggle={props.toggleBug} />
-  ));
+  const bugs = props.bugs
+    .sort((a, b) => ('' + a.name).localeCompare(b.name))
+    .map(bug => (
+      <Card key={bug.id} collectible={bug} toggle={props.toggleBug} />
+    ));
 
   return (
     <div>
