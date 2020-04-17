@@ -1,5 +1,5 @@
 export const fileName = name => (
-  name.toLowerCase().split(' ').join('_').replace(/'/, '') + '.png'
+  name.toLowerCase().split(' ').join('_').replace(/'/, '').replace(/\./g, '') + '.png'
 )
 
 

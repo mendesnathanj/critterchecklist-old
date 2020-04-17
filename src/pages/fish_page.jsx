@@ -10,8 +10,6 @@ const FishPage = props => {
       <Card key={fish.id} collectible={fish} toggle={props.toggleFish} />
     ));
 
-  console.log(fish.length);
-
   return (
     <div>
       <Link to='/'>Home</Link>

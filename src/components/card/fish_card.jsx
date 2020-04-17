@@ -7,6 +7,7 @@ import LocationInfo from './location_info';
 import CardFooter from './card_footer';
 import { fileName } from '../../utils/utils';
 import './Card.css';
+import ShadowInfo from './shadow_info';
 
 const FishCard = ({ collectible, toggle }) => {
   const { name, months, times, location, value, id, found, type, shadowSize } = collectible;
@@ -14,9 +15,10 @@ const FishCard = ({ collectible, toggle }) => {
   return (
     <div className="card">
       <Title name={name} />
-      <Picture folder={type} src={fileName(name)} height={165} />
+      <Picture folder={type} src={fileName(name)} height={125} />
       <SeasonInfo seasons={months.north} />
       <TimeInfo times={times} />
+      <ShadowInfo size={shadowSize} />
       <LocationInfo text={location} />
       <CardFooter value={value} id={id} found={found} toggle={toggle} />
     </div>

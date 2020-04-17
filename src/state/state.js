@@ -10,7 +10,7 @@ export default {
     bugs,
     fish,
     // fossils,
-    // music,
+    music,
     // fossilComponents
   }
 };

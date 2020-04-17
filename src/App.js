@@ -6,8 +6,8 @@ import { store, persistor } from './store/store';
 import { BrowserRouter as Router, NavLink as Link, Route, Switch } from 'react-router-dom';
 import BugsPage from './pages/bugs_container';
 import FishPage from './pages/fish_container';
+import MusicPage from './pages/music_container';
 import Fossils from './pages/fossils_page';
-import Music from './pages/music_page';
 import Home from './pages/home';
 
 
@@ -44,7 +44,7 @@ function App() {
                 <Fossils />
               </Route>
               <Route path='/music'>
-                <Music />
+                <MusicPage />
               </Route>
               <Route path='/'>
                 <Home />

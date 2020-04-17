@@ -1,4 +1,5 @@
-.card-title, .season-header, .pill, .time-info, .location-info, .card-footer {
+.card-title, .season-header, .pill,
+.time-info, .location-info, .shadow-info, .card-footer {
   font-family: 'Baloo Paaji 2', sans-serif;
 }
 
@@ -27,10 +28,17 @@
   color: #555;
   font-size: 1.25rem;
   border-bottom: 2px solid #E1DEE3;
+  letter-spacing: 0.5px;
 }
 
 .bug-picture {
   width: 75%;
+}
+
+.music-picture {
+  width: 55%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .fish-picture {
@@ -42,8 +50,6 @@
   height: auto;
   margin: 0 auto;
 }
-
-
 
 .season-info-container {
   border-top: 2px solid #E1DEE3;
@@ -95,7 +101,7 @@
   color: #f9f9f9;
 }
 
-.time-info, .location-info, .card-footer {
+.time-info, .location-info, .shadow-info, .card-footer {
   font-weight: 600;
   color: #666;
   width: 90%;
@@ -108,8 +114,15 @@
   font-size: 1.1rem;
 }
 
-.season-header, .time-header, .location-header, .value {
+.season-header, .time-header, .location-header, .value, .shadow-header {
   letter-spacing: 0.5px;
+}
+
+.music-location {
+  width: 100%;
+  justify-content: center;
+  border-top: 2px solid #E1DEE3;
+  border-bottom: none;
 }
 
 .available-times {
@@ -131,6 +144,14 @@
   text-align: right;
   line-height: 1.15rem;
   padding-left: 0.1rem;
+}
+
+.music-checkbox {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 0.4rem;
 }
 
 .checkbox {
