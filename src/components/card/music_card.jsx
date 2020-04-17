@@ -6,9 +6,7 @@ import MusicLocationInfo from './music_location.info';
 import Checkbox from './checkbox';
 
 
-const MusicCard = ({ collectible }) => {
-  console.log(collectible);
-
+const MusicCard = ({ collectible, toggle }) => {
   const { id, name, liveOnly, found, type } = collectible;
 
   return (
@@ -17,7 +15,7 @@ const MusicCard = ({ collectible }) => {
       <Picture src={fileName(name)} folder={type} alt={name} height={165} />
       <MusicLocationInfo liveOnly={liveOnly} />
       <div className="music-checkbox">
-        <Checkbox />
+        <Checkbox id={id} found={found} toggle={toggle} />
       </div>
     </div>
   );

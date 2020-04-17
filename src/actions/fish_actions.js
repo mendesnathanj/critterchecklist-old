@@ -1,7 +1,7 @@
-export const TOGGLE_FOUND = 'TOGGLE_FOUND';
+export const TOGGLE_FOUND_FISH = 'TOGGLE_FOUND_FISH';
 
 const toggleFishFound = id => ({
-  type: TOGGLE_FOUND,
+  type: TOGGLE_FOUND_FISH,
   id
 })
 

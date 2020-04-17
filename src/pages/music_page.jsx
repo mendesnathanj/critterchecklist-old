@@ -7,7 +7,7 @@ const MusicPage = props => {
   const music = props.music
     .sort((a, b) => ('' + a.name).localeCompare(b.name))
     .map(music => (
-      <Card key={music.id} collectible={music} />
+      <Card key={music.id} collectible={music} toggle={props.toggleMusic} />
     ));
 
   return (

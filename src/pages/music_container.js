@@ -1,10 +1,15 @@
 import { connect } from 'react-redux';
 import MusicPage from './music_page';
+import { toggleMusic } from '../actions/music_actions';
 
 
 const mapStateToProps = state => ({
   music: Object.values(state.collectibles.music)
 });
 
+const mapDispatchToProps = dispatch => ({
+  toggleMusic: id => dispatch(toggleMusic(id))
+})
 
-export default connect(mapStateToProps)(MusicPage);
+
+export default connect(mapStateToProps, mapDispatchToProps)(MusicPage);
