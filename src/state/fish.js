@@ -12,20 +12,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ],
-      "south": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ]
+      "north": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      },
+      "south": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -43,34 +43,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -88,34 +88,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -133,34 +133,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -178,34 +178,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -223,34 +223,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -268,34 +268,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -313,34 +313,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -358,34 +358,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -403,20 +403,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -434,22 +434,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -467,14 +467,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -492,24 +492,24 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -527,20 +527,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul"
-      ],
-      "south": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true
+      },
+      "south": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -558,18 +558,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -587,34 +587,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -632,16 +632,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May"
-      ],
-      "south": [
-        "Sep",
-        "Oct",
-        "Nov"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      },
+      "south": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -659,22 +659,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -692,16 +692,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -719,34 +719,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -764,22 +764,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ],
-      "south": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ]
+      "north": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      },
+      "south": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -797,34 +797,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -842,20 +842,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -873,18 +873,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun"
-      ]
+      "north": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -902,16 +902,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Dec",
-        "Jan",
-        "Feb"
-      ],
-      "south": [
-        "Jun",
-        "Jul",
-        "Aug"
-      ]
+      "north": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      },
+      "south": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -929,16 +929,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -956,24 +956,24 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -991,24 +991,24 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1026,24 +1026,24 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1061,18 +1061,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ],
-      "south": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ]
+      "north": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      },
+      "south": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1090,12 +1090,12 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep"
-      ],
-      "south": [
-        "Mar"
-      ]
+      "north": {
+        "Sep": true
+      },
+      "south": {
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1113,12 +1113,12 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep"
-      ],
-      "south": [
-        "Mar"
-      ]
+      "north": {
+        "Sep": true
+      },
+      "south": {
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1136,16 +1136,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1163,26 +1163,26 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1200,20 +1200,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1231,22 +1231,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1264,22 +1264,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1297,26 +1297,26 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1334,22 +1334,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1371,18 +1371,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1400,18 +1400,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1429,18 +1429,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1458,18 +1458,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1487,18 +1487,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1516,18 +1516,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1545,24 +1545,24 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ]
+      "north": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1580,18 +1580,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ],
-      "south": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ]
+      "north": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      },
+      "south": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1609,26 +1609,26 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1646,22 +1646,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1679,22 +1679,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1712,22 +1712,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1745,14 +1745,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1770,26 +1770,26 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1807,18 +1807,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb"
-      ],
-      "south": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug"
-      ]
+      "north": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      },
+      "south": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1836,16 +1836,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1863,34 +1863,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1908,34 +1908,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1953,28 +1953,28 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -1992,34 +1992,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2037,34 +2037,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2082,24 +2082,24 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ],
-      "south": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ]
+      "north": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      },
+      "south": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2117,34 +2117,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2162,28 +2162,28 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2201,16 +2201,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2228,20 +2228,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2259,22 +2259,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ],
-      "south": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ]
+      "north": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      },
+      "south": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2292,29 +2292,29 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug",
-        "Sep",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2332,22 +2332,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2365,22 +2365,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2398,16 +2398,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2425,18 +2425,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2454,18 +2454,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2483,18 +2483,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2512,18 +2512,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2541,18 +2541,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2570,18 +2570,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2599,20 +2599,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ],
-      "south": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ]
+      "north": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      },
+      "south": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2630,22 +2630,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ],
-      "south": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ]
+      "north": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      },
+      "south": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2663,34 +2663,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"
@@ -2708,34 +2708,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "fish"

@@ -4,7 +4,9 @@ import { toggleBug } from '../actions/bug_actions';
 
 
 const mapStateToProps = state => ({
-  bugs: Object.values(state.collectibles.bugs)
+  bugs: Object.values(state.collectibles.bugs),
+  filter: state.ui.filter['bugs'],
+  hemisphere: state.ui.hemisphere.hemisphere
 });
 
 

@@ -6,12 +6,17 @@ import initialState from '../state/state';
 import logger from 'redux-logger';
 
 
-const persistConfig = {
-  key: 'collectibles',
-  storage
-};
+// const persistConfig = {
+//   key: 'collectibles',
+//   storage
+// };
 
-const persistedReducer = persistReducer(persistConfig, rootReducer);
 
-export const store = createStore(persistedReducer, initialState, applyMiddleware(logger));
+
+// const persistedReducer = persistReducer(persistConfig, rootReducer);
+
+export const store = createStore(rootReducer, initialState, applyMiddleware(logger));
+if (window) {
+  window.getState = store.getState;
+}
 export const persistor = persistStore(store);

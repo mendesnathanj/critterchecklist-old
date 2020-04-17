@@ -8,14 +8,14 @@ import CardFooter from './card_footer';
 import { fileName } from '../../utils/utils';
 import './Card.css';
 
-const BugCard = ({ collectible, toggle }) => {
+const BugCard = ({ collectible, hemisphere, toggle }) => {
   const { name, months, times, location, value, id, found, type } = collectible;
 
   return (
     <div className="card">
       <Title name={name} />
       <Picture folder={type} src={fileName(name)} height={165} />
-      <SeasonInfo seasons={months.north} />
+      <SeasonInfo seasons={months[hemisphere]} />
       <TimeInfo times={times} />
       <LocationInfo text={location} />
       <CardFooter value={value} id={id} found={found} toggle={toggle} />

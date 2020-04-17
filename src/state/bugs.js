@@ -11,30 +11,30 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -51,22 +51,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -83,24 +83,24 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -117,18 +117,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun"
-      ],
-      "south": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true
+      },
+      "south": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -145,20 +145,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -175,34 +175,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -219,18 +219,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -247,16 +247,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -273,26 +273,26 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -309,21 +309,21 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -340,27 +340,27 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Dec",
-        "Jan",
-        "Feb"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Jun",
-        "Jul",
-        "Aug"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -377,20 +377,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -407,34 +407,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -451,22 +451,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -483,22 +483,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -515,25 +515,25 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -550,18 +550,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -578,18 +578,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -606,16 +606,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -632,16 +632,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -658,14 +658,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -682,28 +682,28 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -720,28 +720,28 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -758,20 +758,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -788,34 +788,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -832,14 +832,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -856,14 +856,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -880,14 +880,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -904,14 +904,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -932,14 +932,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -956,14 +956,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -980,14 +980,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1004,24 +1004,24 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1038,22 +1038,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1070,18 +1070,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb"
-      ],
-      "south": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug"
-      ]
+      "north": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      },
+      "south": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1098,12 +1098,12 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun"
-      ],
-      "south": [
-        "Dec"
-      ]
+      "north": {
+        "Jun": true
+      },
+      "south": {
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1120,24 +1120,24 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ],
-      "south": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ]
+      "north": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      },
+      "south": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1154,20 +1154,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1184,20 +1184,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1214,22 +1214,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1246,28 +1246,28 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1284,28 +1284,28 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1322,20 +1322,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Oct"
-      ],
-      "south": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Apr"
-      ]
+      "north": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Oct": true
+      },
+      "south": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1352,30 +1352,30 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1392,20 +1392,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1422,19 +1422,19 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1451,34 +1451,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1495,20 +1495,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1525,14 +1525,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1549,16 +1549,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Dec",
-        "Jan",
-        "Feb"
-      ],
-      "south": [
-        "Jun",
-        "Jul",
-        "Aug"
-      ]
+      "north": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      },
+      "south": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1575,16 +1575,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1601,14 +1601,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1625,16 +1625,16 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1651,18 +1651,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1679,14 +1679,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1703,14 +1703,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1727,14 +1727,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1751,18 +1751,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1779,14 +1779,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1803,14 +1803,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1827,14 +1827,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1851,14 +1851,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1875,14 +1875,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1899,14 +1899,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1923,14 +1923,14 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1951,20 +1951,20 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -1981,15 +1981,15 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jul",
-        "Aug"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jul": true,
+        "Aug": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2006,34 +2006,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2050,34 +2050,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2094,34 +2094,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2138,34 +2138,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2182,34 +2182,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2226,18 +2226,18 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep"
-      ],
-      "south": [
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar"
-      ]
+      "north": {
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true
+      },
+      "south": {
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2254,26 +2254,26 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov"
-      ],
-      "south": [
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May"
-      ]
+      "north": {
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true
+      },
+      "south": {
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2290,34 +2290,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2334,30 +2334,30 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2374,30 +2374,30 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun"
-      ],
-      "south": [
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true
+      },
+      "south": {
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2414,34 +2414,34 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      "south": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ]
+      "north": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      },
+      "south": {
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true,
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true,
+        "Nov": true,
+        "Dec": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2458,22 +2458,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ],
-      "south": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ]
+      "north": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      },
+      "south": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      }
     },
     "found": false,
     "type": "bug"
@@ -2490,22 +2490,22 @@ module.exports = {
       }
     ],
     "months": {
-      "north": [
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct"
-      ],
-      "south": [
-        "Nov",
-        "Dec",
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr"
-      ]
+      "north": {
+        "May": true,
+        "Jun": true,
+        "Jul": true,
+        "Aug": true,
+        "Sep": true,
+        "Oct": true
+      },
+      "south": {
+        "Nov": true,
+        "Dec": true,
+        "Jan": true,
+        "Feb": true,
+        "Mar": true,
+        "Apr": true
+      }
     },
     "found": false,
     "type": "bug"

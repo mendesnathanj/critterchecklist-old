@@ -5,10 +5,9 @@ const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 
 
 const SeasonInfo = ({ seasons }) => {
-  const activeSeasons = new Set(seasons);
-
+  // console.log(seasons);
   const pills = MONTHS.map(month => {
-    const active = activeSeasons.has(month);
+    const active = seasons[month] ? true : false;
     return <Pill key={month} month={month} active={active} />;
   });
 

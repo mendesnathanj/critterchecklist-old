@@ -1,6 +1,7 @@
 import initialState from '../../state/bugs';
 import { TOGGLE_FOUND_BUG } from '../../actions/bug_actions';
 
+
 export default (state = initialState, action) => {
   switch(action.type) {
     case TOGGLE_FOUND_BUG:
@@ -8,6 +9,7 @@ export default (state = initialState, action) => {
       toggledBug.found = !toggledBug.found;
 
       return Object.assign({}, state, { [toggledBug.id]: toggledBug });
+
     default:
       return state;
   }
