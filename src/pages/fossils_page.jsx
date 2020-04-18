@@ -31,11 +31,9 @@ class FossilPage extends React.Component {
     setTimeout(forceCheck, 0);
 
     return (
-      <div>
-        <CollectiblesLayout>
-          {fossils}
-        </CollectiblesLayout>
-      </div>
+      <CollectiblesLayout>
+        {fossils}
+      </CollectiblesLayout>
     );
   }
 }

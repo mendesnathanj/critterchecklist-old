@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import CollectiblesLayout from '../components/collectibles_layout';
 import Card from '../components/card/card';
 import { forceCheck } from 'react-lazyload';
@@ -34,13 +33,9 @@ class BugPage extends React.Component {
     setTimeout(forceCheck, 0);
 
     return (
-      <div>
-        <Link to='/'>Home</Link>
-        <div>hewwo i am the bugs page</div>
-        <CollectiblesLayout>
-          {bugs}
-        </CollectiblesLayout>
-      </div>
+      <CollectiblesLayout>
+        {bugs}
+      </CollectiblesLayout>
     );
   }
 }

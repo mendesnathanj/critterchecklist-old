@@ -34,13 +34,9 @@ class FishPage extends React.Component {
     setTimeout(forceCheck, 0);
 
     return (
-      <div>
-        <Link to='/'>Home</Link>
-        <div>hewwo i am the fish page</div>
-        <CollectiblesLayout>
-          {fish}
-        </CollectiblesLayout>
-      </div>
+      <CollectiblesLayout>
+        {fish}
+      </CollectiblesLayout>
     );
   }
 }

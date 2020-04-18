@@ -31,11 +31,9 @@ class MusicPage extends React.Component {
     setTimeout(forceCheck, 0);
 
     return (
-      <div>
-        <CollectiblesLayout>
-          {music}
-        </CollectiblesLayout>
-      </div>
+      <CollectiblesLayout>
+        {music}
+      </CollectiblesLayout>
     );
   }
 }
