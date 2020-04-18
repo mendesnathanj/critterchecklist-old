@@ -1,0 +1,25 @@
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Baloo Paaji 2', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #7EA3CC;
+  padding: 0.25rem;
+}
+
+.navlink.active {
+  color: #3A3335;
+  text-decoration: none;
+}

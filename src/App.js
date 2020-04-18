@@ -3,7 +3,8 @@ import './App.css';
 import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
 import { store, persistor } from './store/store';
-import { BrowserRouter as Router, NavLink as Link, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/nav/navbar';
 import Filter from './components/filter/filter_container';
 import BugsPage from './pages/bugs_container';
 import FishPage from './pages/fish_container';
@@ -18,22 +19,7 @@ function App() {
       <PersistGate loading={null} persistor={persistor}>
         <Router>
           <div>
-            <nav>
-              <ul>
-                <li>
-                  <Link to='/bugs'>Bugs</Link>
-                </li>
-                <li>
-                  <Link to='/fish'>Fish</Link>
-                </li>
-                <li>
-                  <Link to='/fossils'>Fossils</Link>
-                </li>
-                <li>
-                  <Link to='/music'>Music</Link>
-                </li>
-              </ul>
-            </nav>
+            <Navbar />
             <Route path='/:page'>
               <Filter />
             </Route>
@@ -54,6 +40,9 @@ function App() {
                 <Home />
               </Route>
             </Switch>
+            <Route exact path='/'>
+
+            </Route>
           </div>
         </Router>
       </PersistGate>
