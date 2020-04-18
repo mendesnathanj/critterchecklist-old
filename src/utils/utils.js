@@ -1,10 +1,6 @@
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Nov', 'Dec'];
 const currMonthIdx = new Date().getMonth();
 
-export const fileName = name => (
-  name.toLowerCase().split(' ').join('_').replace(/'/, '').replace(/\./g, '') + '.png'
-)
-
 export const parsedTime = times => {
   return times.map(timeframe => {
     if (timeframe.start === 0 && timeframe.end === 0) return 'All Day';
@@ -15,7 +11,6 @@ export const parsedTime = times => {
     }).join(' - ');
   });
 };
-
 
 export const filterByActiveMonth = (collectibles, hemisphere) => (
   collectibles.filter(collectible => collectible.months[hemisphere][months[currMonthIdx]])

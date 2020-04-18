@@ -19,7 +19,7 @@ function App() {
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <Router>
-          <div>
+          <div className="app">
             <Navbar />
             <Route path='/:page'>
               <Filter />

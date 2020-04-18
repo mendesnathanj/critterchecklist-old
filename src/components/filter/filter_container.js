@@ -7,7 +7,7 @@ import { toggleCurrentHemisphere } from '../../actions/filter_actions';
 const mapStateToProps = (state, ownProps) => ({
   page: ownProps.match.params.page,
   filter: state.ui.filter[ownProps.match.params.page],
-  currentHemisphere: state.ui.hemisphere.hemisphere
+  currentHemisphere: state.ui.hemisphere
 });
 
 const mapDispatchToProps = dispatch => ({
