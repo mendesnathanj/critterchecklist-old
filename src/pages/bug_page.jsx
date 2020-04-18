@@ -19,18 +19,8 @@ class BugPage extends React.Component {
     return bugs;
   }
 
-  search(bugs) {
-    const { search } = this.props.filter;
-    if (search === '') return this.props.bugs;
-
-    setTimeout(forceCheck, 10);
-    return bugs.filter(bug => bug.name.toLowerCase().includes(search));
-  }
-
   applySorts(bugs) {
     bugs = bugs.sort((a, b) => ('' + a.name).localeCompare(b.name));
-
-
     return bugs;
   }
 

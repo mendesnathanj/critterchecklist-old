@@ -1,25 +1,44 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import CollectiblesLayout from '../components/collectibles_layout';
 import Card from '../components/card/card';
+import { forceCheck } from 'react-lazyload';
+import { musicSearch, filterByFound, filterByLive } from '../utils/utils';
 
-const MusicPage = props => {
-  const music = props.music
-    .sort((a, b) => ('' + a.name).localeCompare(b.name))
-    .map(music => (
-      <Card key={music.id} collectible={music} toggle={props.toggleMusic} />
-    ));
 
-  return (
-    <div>
-      <div>hewwo i am the music page</div>
-      <Link to='/'>Home</Link>
-      <CollectiblesLayout>
-        { music }
-      </CollectiblesLayout>
-    </div>
-  );
-};
+class MusicPage extends React.Component {
+  applyFilters(music) {
+    const { filter } = this.props;
+
+    music = musicSearch(music, filter.search);
+
+    if (filter.liveOnly) music = filterByLive(music);
+    if (filter.notFoundYet) music = filterByFound(music);
+
+    return music;
+  }
+
+  applySorts(music) {
+    music = music.sort((a, b) => ('' + a.name).localeCompare(b.name));
+    return music;
+  }
+
+  render() {
+    let music = this.applyFilters(this.props.music);
+    music = this.applySorts(music);
+
+    music = music.map(music => <Card key={music.id} collectible={music} toggle={this.props.toggleMusic} />);
+
+    setTimeout(forceCheck, 0);
+
+    return (
+      <div>
+        <CollectiblesLayout>
+          {music}
+        </CollectiblesLayout>
+      </div>
+    );
+  }
+}
 
 
 export default MusicPage;

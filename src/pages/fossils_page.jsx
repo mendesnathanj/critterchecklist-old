@@ -1,25 +1,44 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Card from '../components/card/card';
 import CollectiblesLayout from '../components/collectibles_layout';
+import { forceCheck } from 'react-lazyload';
+import { search, filterByFoundFossils } from '../utils/utils';
 
+class FossilPage extends React.Component {
+  applyFilters(fossils) {
+    const { filter, components } = this.props;
 
-const FossilPage = props => {
-  const fossils = props.fossils.map(fossil => {
-    const components = fossil.components.map(id => props.components[id]);
-    return <Card key={fossil.id} collectible={fossil} components={components} toggle={props.toggleComponent} />;
-  });
+    fossils = search(fossils, filter.search);
+    if (filter.notFoundYet) fossils = filterByFoundFossils(fossils, components);
 
-  return (
-    <div>
-      <div>hewwo i am the fossils page</div>
-      <Link to='/'>Home</Link>
-      <CollectiblesLayout>
-        { fossils }
-      </CollectiblesLayout>
-    </div>
-  );
-};
+    return fossils;
+  }
+
+  applySorts(fossils) {
+    fossils = fossils.sort((a, b) => ('' + a.name).localeCompare(b.name));
+    return fossils;
+  }
+
+  render() {
+    let fossils = this.applyFilters(this.props.fossils);
+    fossils = this.applySorts(fossils);
+
+    fossils = fossils.map(fossil => {
+      const components = fossil.components.map(id => this.props.components[id]);
+      return <Card key={fossil.id} collectible={fossil} components={components} toggle={this.props.toggleComponent} />;
+    });
+
+    setTimeout(forceCheck, 0);
+
+    return (
+      <div>
+        <CollectiblesLayout>
+          {fossils}
+        </CollectiblesLayout>
+      </div>
+    );
+  }
+}
 
 
 export default FossilPage;

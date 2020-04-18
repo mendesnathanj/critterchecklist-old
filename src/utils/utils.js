@@ -39,3 +39,24 @@ export const search = (collectibles, term) => {
 export const filterByFound = collectibles => (
   collectibles.filter(collectible => !collectible.found)
 );
+
+export const filterByLive = collectibles => (
+  collectibles.filter(collectible => collectible.liveOnly)
+);
+
+export const musicSearch = (music, term) => {
+  if (term === '') return music;
+
+  return music.filter(collectible => collectible.name.split('.').join('').toLowerCase().includes(term));
+}
+
+export const filterByFoundFossils = (fossils, components) => (
+  fossils.filter(fossil => {
+    const fossilComponents = fossil.components.map(id => components[id]);
+    if (fossil.name === 'Amber') {
+      const ans = !fossilComponents.map(com => com.found).reduce((acc, el) => acc && el);
+      console.log(ans);
+    }
+    return !fossilComponents.map(com => com.found).reduce((acc, el) => acc && el);
+  })
+);

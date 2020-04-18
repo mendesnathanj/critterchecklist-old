@@ -5,7 +5,8 @@ import FossilPage from './fossils_page';
 
 const mapStateToProps = state => ({
   fossils: Object.values(state.collectibles.fossils),
-  components: state.collectibles.fossilComponents
+  components: state.collectibles.fossilComponents,
+  filter: state.ui.filter.fossils
 })
 
 

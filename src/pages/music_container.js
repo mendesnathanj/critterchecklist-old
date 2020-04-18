@@ -4,7 +4,8 @@ import { toggleMusic } from '../actions/music_actions';
 
 
 const mapStateToProps = state => ({
-  music: Object.values(state.collectibles.music)
+  music: Object.values(state.collectibles.music),
+  filter: state.ui.filter.music
 });
 
 const mapDispatchToProps = dispatch => ({

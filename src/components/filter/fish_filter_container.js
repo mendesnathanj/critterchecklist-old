@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import BugsFilter from './bugs_filter';
-import { toggleActiveThisMonth, toggleLeavesThisMonth, toggleAlreadyFound } from '../../actions/bug_filter_actions';
+import FishFilter from './fish_filter';
+import { toggleActiveThisMonth, toggleLeavesThisMonth, toggleAlreadyFound } from '../../actions/fish_filter_actions';
 
 const mapStateToProps = (_, ownProps) => ({
   filter: ownProps.filter
@@ -14,4 +14,4 @@ const mapDispatchToProps = dispatch => ({
 });
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(BugsFilter);
+export default connect(mapStateToProps, mapDispatchToProps)(FishFilter);

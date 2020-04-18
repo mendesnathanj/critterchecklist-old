@@ -4,7 +4,9 @@ import FishPage from './fish_page';
 
 
 const mapStateToProps = state => ({
-  fish: Object.values(state.collectibles.fish)
+  fish: Object.values(state.collectibles.fish),
+  hemisphere: state.ui.hemisphere.hemisphere,
+  filter: state.ui.filter.fish
 });
 
 
