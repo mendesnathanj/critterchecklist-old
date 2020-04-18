@@ -17,10 +17,10 @@ class Settings extends React.Component {
 
   render() {
     const options = ['northern', 'southern']
-      .map(option => <SettingOption key={option} option={option} toggle={this.props.toggleCurrentHemisphere} />);
+      .map(option => <SettingOption key={option} option={option} curr={this.props.currentHemisphere} toggle={this.props.toggleCurrentHemisphere} />);
 
     return (
-      <div>
+      <div className="hemispheres-wrapper">
         <div className="hemispheres-container">
           <h3 className="hemisphere-header" onClick={this.toggleOpen}>Hemisphere</h3>
           <div className="options">

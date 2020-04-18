@@ -1,5 +1,6 @@
 import initialState from '../../state/bug_filter';
 import { TOGGLE_ACTIVE, TOGGLE_LEAVES_THIS_MONTH, TOGGLE_NOT_FOUND_YET } from '../../actions/bug_filter_actions';
+import { UPDATE_SEARCH } from '../../actions/filter_actions';
 
 export default (state = initialState, action) => {
 
@@ -12,6 +13,9 @@ export default (state = initialState, action) => {
 
     case TOGGLE_NOT_FOUND_YET:
       return Object.assign({}, state, { notFoundYet: !state.notFoundYet });
+
+    case UPDATE_SEARCH:
+      return Object.assign({}, state, { search: action.text });
 
     default:
       return state;

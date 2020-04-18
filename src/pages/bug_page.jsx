@@ -2,29 +2,29 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import CollectiblesLayout from '../components/collectibles_layout';
 import Card from '../components/card/card';
+import { forceCheck } from 'react-lazyload';
+import { filterByActiveMonth, filterByLeaving, search, filterByFound } from '../utils/utils';
 
 
 class BugPage extends React.Component {
   applyFilters(bugs) {
     const { filter, hemisphere } = this.props;
-    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Nov', 'Dec'];
-    const currMonthIdx = new Date().getMonth();
 
-    if (filter.notFoundYet) bugs = bugs.filter(bug => !bug.found);
+    bugs = search(bugs, filter.search);
 
-    if (filter.activeMonth) bugs = bugs.filter(bug => bug.months[hemisphere][months[currMonthIdx]]);
-
-    if (filter.leavesThisMonth) {
-      bugs = bugs.filter(bug => {
-        const availableThisMonth = bug.months[hemisphere][months[currMonthIdx]];
-        const unavailableNextMonth = !bug.months[hemisphere][months[currMonthIdx + 1]];
-
-        return (availableThisMonth && unavailableNextMonth);
-      });
-    }
-
+    if (filter.notFoundYet) bugs = filterByFound(bugs);
+    if (filter.activeMonth) bugs = filterByActiveMonth(bugs, hemisphere);
+    if (filter.leavesThisMonth) bugs = filterByLeaving(bugs, hemisphere);
 
     return bugs;
+  }
+
+  search(bugs) {
+    const { search } = this.props.filter;
+    if (search === '') return this.props.bugs;
+
+    setTimeout(forceCheck, 10);
+    return bugs.filter(bug => bug.name.toLowerCase().includes(search));
   }
 
   applySorts(bugs) {
@@ -40,6 +40,8 @@ class BugPage extends React.Component {
     const { hemisphere } = this.props;
 
     bugs = bugs.map(bug => <Card key={bug.id} collectible={bug} toggle={this.props.toggleBug} hemisphere={hemisphere} />);
+
+    setTimeout(forceCheck, 0);
 
     return (
       <div>

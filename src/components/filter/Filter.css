@@ -1,0 +1,125 @@
+.filter-wrapper {
+  font-family: 'Baloo Paaji 2', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #FDFDFF;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.filter-wrapper.open {
+  padding-bottom: 1rem;
+}
+
+.filter-options {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.filter-wrapper.open > .filter-options {
+  max-height: 300px;
+}
+
+.filter-wrapper.open > .filter-toggler {
+  border-bottom: 2px solid #e5e5e5;
+  margin-bottom: 1rem;
+}
+
+.filter-checkbox-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.filter-checkbox-container > .checkbox {
+  font-size: 1.75rem;
+}
+
+.filter-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-header {
+  font-weight: 800;
+  color: #555;
+  letter-spacing: 0.5px;
+}
+
+.filter-toggler {
+  font-weight: 700;
+  color: #444;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+}
+
+.hemispheres-wrapper {
+  padding-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.hemispheres-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hemisphere-header {
+  font-weight: 800;
+  color: #555;
+  letter-spacing: 0.5px;
+}
+
+.options {
+  display: flex;
+}
+
+.option-wrapper:first-child {
+  padding-right: 0.5rem;
+}
+
+.option {
+  background-color: #e5e5e5;
+  padding: 0.15rem 0.35rem;
+  border-radius: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 200ms ease-in-out;
+}
+
+.option.active {
+  background-color: #9CBE89;
+  color: #F9F9F9;
+}
+
+.search-bar-wrapper {
+  padding-top: 1rem;
+}
+
+.search-bar {
+  width: 100%;
+  font-family: 'Baloo Paaji 2', sans-serif;
+  color: #555;
+  font-weight: 600;
+  font-size: 1.25rem;
+  border: 2px solid #e5e5e5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1.25rem;
+  letter-spacing: 0.25px;
+  transition: all 150ms ease-in-out;
+}
+
+.search-bar:focus {
+  outline: none;
+  border: 2px solid #7EA3CC;
+}
+
+.search-bar::placeholder {
+  color: #777;
+}
