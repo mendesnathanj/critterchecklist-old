@@ -7,25 +7,25 @@ import storage from 'redux-persist/lib/storage';
 import { persistReducer } from 'redux-persist';
 
 const bugsPersistConfig = {
-  key: 'bugs',
+  key: 'ui_bugs',
   storage,
   whitelist: []
 }
 
 const fishPersistConfig = {
-  key: 'fish',
+  key: 'ui_fish',
   storage,
   whitelist: []
 };
 
 const musicPersistConfig = {
-  key: 'music',
+  key: 'ui_music',
   storage,
   whitelist: []
 };
 
 const fossilPersistConfig = {
-  key: 'fossils',
+  key: 'ui_fossils',
   storage,
   whitelist: []
 };

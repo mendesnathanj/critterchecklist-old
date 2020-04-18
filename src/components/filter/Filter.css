@@ -8,10 +8,19 @@
   border-radius: 5px;
   padding-left: 1rem;
   padding-right: 1rem;
+  transition: all 250ms ease-in-out;
+}
+
+.filter-wrapper:hover {
+  background-color: #f3f3f3;
 }
 
 .filter-wrapper.open {
   padding-bottom: 1rem;
+}
+
+.filter-wrapper.open {
+  background-color: #fdfdff;
 }
 
 .filter-options {
@@ -57,6 +66,7 @@
   letter-spacing: 0.5px;
   padding-top: 1rem;
   padding-bottom: 0.8rem;
+  cursor: pointer;
 }
 
 .hemispheres-wrapper {
@@ -90,6 +100,7 @@
   font-weight: 600;
   letter-spacing: 0.5px;
   transition: all 200ms ease-in-out;
+  cursor: pointer;
 }
 
 .option.active {
@@ -122,4 +133,15 @@
 
 .search-bar::placeholder {
   color: #777;
+}
+
+
+.time-input::-webkit-outer-spin-button,
+.time-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.time-input[type=number] {
+  -moz-appearance: textfield;
 }

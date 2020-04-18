@@ -55,3 +55,18 @@ export const filterByFoundFossils = (fossils, components) => (
     return !fossilComponents.map(com => com.found).reduce((acc, el) => acc && el);
   })
 );
+
+
+export const filterByTimeAvailable = (collectibles, time) => {
+  if (time === null) return collectibles;
+
+  return collectibles.filter(collectible => {
+    const { times } = collectible;
+    if (times.length === 1 && times[0].start === 0 && times[0].end === 0) return true;
+
+    return times.map(range => {
+      if (range.start < range.end) return range.start <= time && range.end > time;
+      else return range.start <= time || range.end > time;
+    }).reduce((acc, el) => acc || el);
+  });
+}

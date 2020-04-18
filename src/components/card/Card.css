@@ -173,4 +173,5 @@
 .checkbox {
   font-size: 1.9rem;
   color: #9CBE89;
+  cursor: pointer;
 }

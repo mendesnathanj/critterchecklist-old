@@ -2,7 +2,7 @@ import React from 'react';
 import CollectiblesLayout from '../components/collectibles_layout';
 import Card from '../components/card/card';
 import { forceCheck } from 'react-lazyload';
-import { filterByActiveMonth, filterByLeaving, search, filterByFound } from '../utils/utils';
+import { filterByActiveMonth, filterByLeaving, search, filterByFound, filterByTimeAvailable } from '../utils/utils';
 
 
 class BugPage extends React.Component {
@@ -14,6 +14,7 @@ class BugPage extends React.Component {
     if (filter.notFoundYet) bugs = filterByFound(bugs);
     if (filter.activeMonth) bugs = filterByActiveMonth(bugs, hemisphere);
     if (filter.leavesThisMonth) bugs = filterByLeaving(bugs, hemisphere);
+    bugs = filterByTimeAvailable(bugs, this.props.time);
 
     return bugs;
   }

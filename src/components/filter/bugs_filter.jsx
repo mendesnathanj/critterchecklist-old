@@ -1,5 +1,6 @@
 import React from 'react';
 import FilterCheckbox from './filter_checkbox';
+import TimeAvailabilityInputContainer from './time_availability_container';
 
 
 const BugsFilter = props => {
@@ -9,8 +10,9 @@ const BugsFilter = props => {
   return (
     <div className="filter-nav">
       <FilterCheckbox header='Leaves this month' active={leavesThisMonth} toggle={toggleLeavesThisMonth} />
-      <FilterCheckbox header='Found This Month' active={activeMonth} toggle={toggleActiveThisMonth} />
+      <FilterCheckbox header='Found this month' active={activeMonth} toggle={toggleActiveThisMonth} />
       <FilterCheckbox header='Not found yet' active={notFoundYet} toggle={toggleAlreadyFound} />
+      <TimeAvailabilityInputContainer />
     </div>
   )
 };

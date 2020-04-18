@@ -9,7 +9,7 @@ const FishFilter = props => {
   return (
     <div className="filter-nav">
       <FilterCheckbox header='Leaves this month' active={leavesThisMonth} toggle={toggleLeavesThisMonth} />
-      <FilterCheckbox header='Found This Month' active={activeMonth} toggle={toggleActiveThisMonth} />
+      <FilterCheckbox header='Found this month' active={activeMonth} toggle={toggleActiveThisMonth} />
       <FilterCheckbox header='Not found yet' active={notFoundYet} toggle={toggleAlreadyFound} />
     </div>
   )
