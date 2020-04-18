@@ -7,7 +7,8 @@ const mapStateToProps = state => ({
   bugs: Object.values(state.collectibles.bugs),
   filter: state.ui.filter['bugs'],
   hemisphere: state.ui.hemisphere,
-  time: state.ui.time
+  time: state.ui.time,
+  hideAllDay: state.ui.allDay
 });
 
 

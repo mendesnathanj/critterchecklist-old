@@ -69,4 +69,15 @@ export const filterByTimeAvailable = (collectibles, time) => {
       else return range.start <= time || range.end > time;
     }).reduce((acc, el) => acc || el);
   });
+};
+
+export const hideAllDay = (collectibles, hideAllDay) => {
+  if (!hideAllDay) return collectibles;
+
+  return collectibles.filter(collectible => {
+    const { times } = collectible;
+    if (times.length > 1) return true;
+
+    return !(times[0].start === 0 && times[0].end === 0);
+  });
 }

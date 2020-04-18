@@ -14,10 +14,10 @@ class TimeAvailabilityInput extends React.Component {
 
   handleTimeInput(e) {
     let time = e.target.value;
-    if (parseInt(time) > 12) time = 12;
-    else if (parseInt(time) < 1) time = 1;
+    if (parseInt(time) > 12) e.target.value = 12;
+    else if (parseInt(time) < 1) e.target.value = 1;
 
-    this.setState({ time }, this.submitTime);
+    this.setState({ time: e.target.value }, this.submitTime);
   }
 
   toggleMeridian() {
@@ -26,14 +26,14 @@ class TimeAvailabilityInput extends React.Component {
   }
 
   submitTime() {
-    let time = parseInt(this.state.time);
     if (this.state.time.length === 0) this.props.updateTime(this.state.time);
 
+    let time = parseInt(this.state.time);
+    
     if (isNaN(time)) return;
-
     if (this.state.meridian === 'PM') time += 12;
+    else if (this.state.meridian === 'AM' && time === 12) time = 0;
 
-    console.log(time);
     this.props.updateTime(time);
   }
 
@@ -43,7 +43,7 @@ class TimeAvailabilityInput extends React.Component {
       <div className="time-input-wrapper">
         <span className="filter-header">Available at this time</span>
         <div className="inputs-wrapper">
-          <input className="time-input" placeholder="All" type="number" min={1} max={12} onChange={e => this.handleTimeInput(e)} />
+          <input className="time-input" placeholder="Any" type="number" min={1} max={12} onChange={e => this.handleTimeInput(e)} />
           <MeridianDropdown meridian={this.state.meridian} toggle={this.toggleMeridian} />
         </div>
       </div>

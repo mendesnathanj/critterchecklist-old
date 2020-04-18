@@ -5,7 +5,7 @@ import initialState from '../state/state';
 import logger from 'redux-logger';
 
 
-export const store = createStore(rootReducer, initialState, applyMiddleware());
+export const store = createStore(rootReducer, initialState, applyMiddleware(logger));
 if (window) {
   window.getState = store.getState;
 }

@@ -1,16 +1,18 @@
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
 import TimeAvailabilityInput from './time_availability';
-import { dispatchUpdateTime } from '../../actions/filter_actions';
+import { dispatchUpdateTime, toggleShowAllDay } from '../../actions/filter_actions';
 
 
 const mapStateToProps = (state, ownProps) => ({
-  currentMeridian: state.ui.time
+  currentMeridian: state.ui.time,
+  hideAllDay: state.ui.allDay
 });
 
 
 const mapDispatchToProps = dispatch => ({
-  updateTime: time => dispatch(dispatchUpdateTime(time))
+  updateTime: time => dispatch(dispatchUpdateTime(time)),
+  toggleShowAllDay: () => dispatch(toggleShowAllDay())
 })
 
 
