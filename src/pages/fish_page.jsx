@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import CollectiblesLayout from '../components/collectibles_layout';
 import Card from '../components/card/card';
 import { forceCheck } from 'react-lazyload';

@@ -11,6 +11,7 @@ import FishPage from './pages/fish_container';
 import MusicPage from './pages/music_container';
 import FossilPage from './pages/fossils_container';
 import Home from './pages/home';
+import Footer from './components/footer/footer';
 
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
               </Route>
             </Switch>
             <Route exact path='/'>
-
+              <Footer />
             </Route>
           </div>
         </Router>

@@ -1,0 +1,11 @@
+.home {
+  font-family: 'Baloo Paaji 2', sans-serif;
+  text-align: center;
+  line-height: 1.15rem;
+  width: 90%;
+  max-width: 500px;
+  font-weight: 600;
+  color: #555;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
