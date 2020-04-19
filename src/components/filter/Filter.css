@@ -182,3 +182,17 @@
   outline: none;
   border: 2px solid #7EA3CC;
 }
+
+@media (min-width: 600px) {
+  .filter-header, .hemisphere-header {
+    font-size: 1.1rem;
+  }
+
+  .filter-checkbox-container > .checkbox {
+    font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 900px) {
+
+}

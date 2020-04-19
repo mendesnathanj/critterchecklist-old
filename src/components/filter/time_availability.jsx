@@ -29,9 +29,9 @@ class TimeAvailabilityInput extends React.Component {
     if (this.state.time.length === 0) this.props.updateTime(this.state.time);
 
     let time = parseInt(this.state.time);
-    
+
     if (isNaN(time)) return;
-    if (this.state.meridian === 'PM') time += 12;
+    if (this.state.meridian === 'PM' && time < 12) time += 12;
     else if (this.state.meridian === 'AM' && time === 12) time = 0;
 
     this.props.updateTime(time);

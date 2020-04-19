@@ -21,3 +21,13 @@ body {
   font-size: 1.2rem;
   padding: 0.8rem;
 }
+
+@media (min-width: 800px) {
+  .checklist-header-wrapper {
+    margin-top: 1.35rem;
+  }
+
+  .critter-checklist-header {
+    font-size: 1.35rem;
+  }
+}

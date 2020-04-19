@@ -201,16 +201,9 @@
 
 
 @media (min-width: 600px) {
-  .collectibles.fossil-page {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  /* max-height: 5000px; */
-}
+
 }
 
 @media (min-width: 900px) {
-  .collectibles.fossil-page {
-    /* max-height: 2800px; */
-  }
+
 }

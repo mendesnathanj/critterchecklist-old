@@ -3,9 +3,20 @@
   text-align: center;
   line-height: 1.25rem;
   width: 90%;
-  max-width: 500px;
+  max-width: 600px;
   font-weight: 600;
   color: #555;
   margin: 0 auto;
   margin-top: 1rem;
+}
+
+@media (min-width: 800px) {
+  .home {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .shamelessness {
+    font-size: 1.15rem;
+  }
 }

@@ -11,7 +11,7 @@
   font-family: 'Baloo Paaji 2', sans-serif;
   font-weight: 700;
   font-size: 1.15rem;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -24,4 +24,10 @@
 .navlink.active {
   color: #3A3335;
   text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  .navlist {
+    font-size: 1.35rem;
+  }
 }
