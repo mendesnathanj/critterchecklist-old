@@ -21,30 +21,30 @@ function App() {
         <Router>
           <div className="app">
             <h1 className="checklist-header-wrapper navitem">
-              <Link exact className="critter-checklist-header navlink" to="/">Critter Checklist</Link>
+              <Link exact className="critter-checklist-header navlink" to="/critterchecklist">Critter Checklist</Link>
             </h1>
             <Navbar />
-            <Route path='/:page'>
+            <Route path={"/critterchecklist/:page"}>
               <Filter />
             </Route>
             <Switch>
-              <Route path='/bugs'>
+              <Route path='/critterchecklist/bugs'>
                 <BugsPage />
               </Route>
-              <Route path='/fish'>
+              <Route path='/critterchecklist/fish'>
                 <FishPage />
               </Route>
-              <Route path='/fossils'>
+              <Route path='/critterchecklist/fossils'>
                 <FossilPage />
               </Route>
-              <Route path='/music'>
+              <Route path='/critterchecklist/music'>
                 <MusicPage />
               </Route>
               <Route path='/'>
                 <Home />
               </Route>
             </Switch>
-            <Route exact path='/'>
+            <Route exact path='/critterchecklist'>
               <Footer />
             </Route>
           </div>
