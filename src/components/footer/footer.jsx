@@ -6,7 +6,7 @@ import './Footer.css';
 
 const Footer = () => (
   <footer className="footer">
-    <p className="shamelessness">I'm currently looking for work, so hmu</p>
+    <p className="shamelessness">I'm currently looking for work, pls hmu 🥺</p>
     <div className="icons">
       <a className="external-link" href="https://www.linkedin.com/in/mendesnathanj/" rel="noopener noreferrer" target="_blank">
         <FontAwesomeIcon className="footer-icon" icon={faLinkedin} />
