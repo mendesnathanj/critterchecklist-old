@@ -3,15 +3,34 @@
   font-family: 'Baloo Paaji 2', sans-serif;
 }
 
-.collectibles {
+.collectibles-wrapper {
+  padding-top: 1rem;
+}
+
+.collectibles, .fossil-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fossil-col {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
 }
 
 .card-wrapper {
+  min-width: 275px;
   padding: 1rem;
 }
+
+/* .card-wrapper.fossil {
+  padding: 0.5rem;
+} */
 
 .card {
   background-color: #FDFDFF;
@@ -119,6 +138,10 @@
   font-size: 1.1rem;
 }
 
+.location-info {
+  min-height: 80px;
+}
+
 .card-footer, .fossil-component:last-child {
   border: none;
   align-items: center;
@@ -174,4 +197,20 @@
   font-size: 1.9rem;
   color: #9CBE89;
   cursor: pointer;
+}
+
+
+@media (min-width: 600px) {
+  .collectibles.fossil-page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* max-height: 5000px; */
+}
+}
+
+@media (min-width: 900px) {
+  .collectibles.fossil-page {
+    /* max-height: 2800px; */
+  }
 }

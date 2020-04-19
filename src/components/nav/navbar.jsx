@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <ul className="navlist">
-        <li className="navitem">
+        {/* <li className="navitem">
           <Link className="navlink" exact to='/'>Home</Link>
-        </li>
+        </li> */}
         { pages }
       </ul>
     </nav>

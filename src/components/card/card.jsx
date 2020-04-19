@@ -16,8 +16,10 @@ const Card = (props) => {
   else
     card = <FossilCard {...props} />
 
+  const fossil = props.fossil ? ' fossil' : '';
+
   return (
-    <div className="card-wrapper">
+    <div className={`card-wrapper${fossil}`}>
       { card }
     </div>
   );

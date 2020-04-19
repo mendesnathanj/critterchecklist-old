@@ -48,10 +48,6 @@ export const musicSearch = (music, term) => {
 export const filterByFoundFossils = (fossils, components) => (
   fossils.filter(fossil => {
     const fossilComponents = fossil.components.map(id => components[id]);
-    if (fossil.name === 'Amber') {
-      const ans = !fossilComponents.map(com => com.found).reduce((acc, el) => acc && el);
-      console.log(ans);
-    }
     return !fossilComponents.map(com => com.found).reduce((acc, el) => acc && el);
   })
 );

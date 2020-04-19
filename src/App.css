@@ -6,3 +6,18 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.checklist-header-wrapper {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.critter-checklist-header {
+  font-family: 'Baloo Paaji 2', sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: #7EA3CC;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+}

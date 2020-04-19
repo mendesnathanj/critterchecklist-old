@@ -1,5 +1,6 @@
 import React from 'react';
 import FilterCheckbox from './filter_checkbox';
+import TimeAvailabilityInputContainer from './time_availability_container';
 
 
 const FishFilter = props => {
@@ -11,6 +12,8 @@ const FishFilter = props => {
       <FilterCheckbox header='Leaves this month' active={leavesThisMonth} toggle={toggleLeavesThisMonth} />
       <FilterCheckbox header='Found this month' active={activeMonth} toggle={toggleActiveThisMonth} />
       <FilterCheckbox header='Not found yet' active={notFoundYet} toggle={toggleAlreadyFound} />
+      <FilterCheckbox active={props.hideAllDay} header='Hide All Day' toggle={props.toggleShowAllDay} />
+      <TimeAvailabilityInputContainer />
     </div>
   )
 };

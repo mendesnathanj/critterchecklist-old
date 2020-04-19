@@ -11,6 +11,8 @@
   font-family: 'Baloo Paaji 2', sans-serif;
   font-weight: 700;
   font-size: 1.15rem;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .navlink {

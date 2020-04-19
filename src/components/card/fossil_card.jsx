@@ -5,20 +5,6 @@ import FossilComponent from './fossil_component';
 class FossilCard extends React.Component {
   constructor(props) {
     super(props);
-
-    this.state = { found: false };
-  }
-
-  componentDidMount() {
-    const { components } = this.props;
-    const found = components.map(c => c.found).reduce((acc, el) => acc && el);
-    this.setState({ found });
-  }
-
-  componentDidUpdate(_, prevState) {
-    const { components } = this.props;
-    const found = components.map(c => c.found).reduce((acc, el) => acc && el);
-    if (prevState.found !== found) this.setState({ found });
   }
 
   render() {

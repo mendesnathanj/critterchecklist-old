@@ -3,7 +3,7 @@ import './App.css';
 import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
 import { store, persistor } from './store/store';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, NavLink as Link } from 'react-router-dom';
 import Navbar from './components/nav/navbar';
 import Filter from './components/filter/filter_container';
 import BugsPage from './pages/bugs_container';
@@ -20,6 +20,9 @@ function App() {
       <PersistGate loading={null} persistor={persistor}>
         <Router>
           <div className="app">
+            <h1 className="checklist-header-wrapper navitem">
+              <Link exact className="critter-checklist-header navlink" to="/">Critter Checklist</Link>
+            </h1>
             <Navbar />
             <Route path='/:page'>
               <Filter />
