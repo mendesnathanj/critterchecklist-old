@@ -6,7 +6,7 @@ const Navbar = () => {
   const pages = ['Bugs', 'Fish', 'Fossils', 'Music']
     .map(page => (
       <li key={page} className="navitem">
-        <Link className="navlink" to={`/critterchecklist/${page.toLowerCase()}`}>{page}</Link>
+        <Link className="navlink" to={`/${page.toLowerCase()}`}>{page}</Link>
       </li>
     ));
 
