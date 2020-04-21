@@ -2,7 +2,7 @@ import React from 'react';
 import LazyLoad from 'react-lazyload';
 
 export default ({ src, name, height, folder }) => (
-  <LazyLoad height={height} offset={150}>
+  <LazyLoad height={height} offset={300}>
     <img className={`card-picture ${folder}-picture`} src={require(`../../assets/${folder}/${src}`)} alt={name} />
   </LazyLoad>
 );

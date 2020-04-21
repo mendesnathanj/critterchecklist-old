@@ -415,14 +415,14 @@ module.exports = {
   "60": {
     id: 60,
     name: "Skull",
-    value: 3000,
+    value: 4000,
     found: false,
     type: "fossil_component"
   },
   "61": {
     id: 61,
     name: "Torso",
-    value: 2500,
+    value: 3500,
     found: false,
     type: "fossil_component"
   },

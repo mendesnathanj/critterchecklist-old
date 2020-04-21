@@ -5,7 +5,7 @@ import storage from 'redux-persist/lib/storage';
 import { persistReducer } from 'redux-persist';
 
 const persistConfig = {
-  key: 'collectibles',
+  key: 'root',
   storage,
   blacklist: ['ui']
 };

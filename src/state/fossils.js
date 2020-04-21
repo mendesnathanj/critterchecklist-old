@@ -190,7 +190,7 @@ module.exports = {
   },
   "36": {
     id: 36,
-    name: "Velociraptor",
+    name: "Archelon",
     components: [60, 61]
   }
 };
