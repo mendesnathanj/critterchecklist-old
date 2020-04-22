@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faAngellist, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faUser } from '@fortawesome/free-regular-svg-icons';
 import './Footer.css';
 
 
@@ -16,6 +17,9 @@ const Footer = () => (
       </a>
       <a className="external-link" href="https://github.com/mendesnathanj" rel="noopener noreferrer" target="_blank">
         <FontAwesomeIcon className="footer-icon" icon={faGithub} />
+      </a>
+      <a className="external-link" href="http://nathanmendes.com/" rel="noopener noreferrer" target="_blank">
+        <FontAwesomeIcon className="footer-icon" icon={faUser} />
       </a>
     </div>
   </footer>
