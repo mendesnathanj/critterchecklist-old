@@ -25,11 +25,12 @@
 
 .filter-options {
   max-height: 0;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .filter-wrapper.open > .filter-options {
-  max-height: 300px;
+  max-height: 350px;
+  overflow-y: visible;
 }
 
 .filter-wrapper.open > .filter-toggler {
@@ -183,6 +184,72 @@
 .time-input:focus {
   outline: none;
   border: 2px solid #7EA3CC;
+}
+
+.filter-location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  min-height: 44px;
+}
+
+.location-list-container {
+  border: 2px solid #e5e5e5;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #555;
+  position: relative;
+  min-width: 146px;
+}
+
+.location-list-container.open {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.location-list {
+  position: absolute;
+  top: 100%;
+  left: -2px;
+  z-index: 9000;
+  min-width: 146px;
+  background-color: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: right;
+}
+
+.selected {
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+.location-list-container.open > .selected {
+  text-align: right;
+}
+
+.location-list-container.open > .location-list {
+  border: 2px solid #e5e5e5;
+}
+
+.location-item {
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid #efefef;
+}
+
+.location-item, .selected {
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.location-item:hover, .selected:hover {
+  background-color: #ddd;
+}
+
+.location-item:last-child {
+  border-bottom: none;
 }
 
 @media (min-width: 600px) {

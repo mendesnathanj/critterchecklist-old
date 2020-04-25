@@ -77,3 +77,7 @@ export const hideAllDay = (collectibles, hideAllDay) => {
     return !(times[0].start === 0 && times[0].end === 0);
   });
 }
+
+export const filterByLocation = (collectibles, location) => (
+  collectibles.filter(collectible => collectible.location.includes(location))
+)

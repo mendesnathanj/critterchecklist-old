@@ -2,7 +2,7 @@ import React from 'react';
 import CollectiblesLayout from '../components/collectibles_layout';
 import Card from '../components/card/card';
 import { forceCheck } from 'react-lazyload';
-import { filterByActiveMonth, filterByLeaving, search, filterByFound, filterByTimeAvailable, hideAllDay } from '../utils/utils';
+import { filterByActiveMonth, filterByLeaving, search, filterByFound, filterByTimeAvailable, hideAllDay, filterByLocation } from '../utils/utils';
 
 
 class FishPage extends React.Component {
@@ -14,6 +14,7 @@ class FishPage extends React.Component {
     if (filter.notFoundYet) fish = filterByFound(fish);
     if (filter.activeMonth) fish = filterByActiveMonth(fish, hemisphere);
     if (filter.leavesThisMonth) fish = filterByLeaving(fish, hemisphere);
+    if (filter.filterByLocation !== '') fish = filterByLocation(fish, filter.filterByLocation);
 
     fish = hideAllDay(fish, this.props.hideAllDay);
     fish = filterByTimeAvailable(fish, this.props.time);
