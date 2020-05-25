@@ -83,7 +83,7 @@ class FossilPage extends React.Component {
       currCol++;
     }
 
-    cols = cols.map(items => <div className="fossil-col">{ items }</div>);
+    cols = cols.map((items, i) => <div key={i} className="fossil-col">{ items }</div>);
     return (
       <CollectiblesLayout>
         { cols }
